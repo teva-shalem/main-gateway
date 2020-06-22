@@ -1,0 +1,47 @@
+<app>
+  <h1><a href="/">טבע שלם</a></h1>
+  <h1>מערכת ללימוד הנפש</h1>
+
+  <router>
+    <route path='/'>
+      <home/>
+    </route>
+  </router>
+
+  <script>
+    import lazy from '@riotjs/lazy'
+    import { Router, Route } from '@riotjs/route'
+    import Loader            from './pages/loader.riot'
+    export default {
+      components: {
+        Router,
+        Route,
+        Home: lazy(Loader, () => import('./pages/home.riot')),
+        About: lazy(Loader, () => import('./pages/about.riot')),
+        Art: lazy(Loader, () => import('./pages/art.riot')),
+      }
+    }
+  </script>
+
+  <style type="scss">
+    :host {
+      margin: 0 auto;
+      font-family: 'Assistant', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      text-align: center;
+      color: #494949;
+      direction: rtl;
+      width: 60vw;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li a {
+      padding: 16px;
+    }
+  </style>
+</app>

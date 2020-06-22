@@ -1,0 +1,175 @@
+<tooltip>
+  <a class="TooltipTrigger" href="#"><slot/><div class="Tooltip" aria-expanded="{state.active}">
+    <p class="{props.position || 'top'}">{props.content}</p>
+  </div></a>
+
+  <script type="ts">
+    import {TooltipComponent} from './types'
+
+    function Tooltip(): TooltipComponent {
+      return {
+        state: {
+          active: false
+        },
+        onMounted() {
+          const tooltip = this.$('.TooltipTrigger')
+
+          tooltip.addEventListener('focus', (ev) => {
+            this.update({active: true})
+          })
+
+          tooltip.addEventListener('blur', (ev) => {
+            this.update({active: false})
+          })
+
+          tooltip.addEventListener('mouseenter', (ev) => {
+            ev.target.focus()
+          })
+
+          tooltip.addEventListener('mouseleave', (ev) => {
+            ev.target.blur()
+          })
+        },
+      }
+    }
+
+    export default Tooltip
+  </script>
+
+  <style type="scss">
+    .TooltipTrigger {
+      position: relative;
+      border-bottom: 3px solid #67C8EA;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      &:focus {
+        outline: 0;
+        background: #A4E1F6;
+
+        p {
+          visibility: visible;
+          opacity: 1;
+          &.top {
+            transform: translate(-50%, -100%);
+          }
+          &.bottom {
+            transform: translate(-50%, 100%);
+          }
+          &.left {
+            transform: translate(-100%, -50%);
+          }
+          &.right {
+            transform: translate(100%, -50%);
+          }
+        }
+      }
+    }
+
+    .Tooltip {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+
+      p {
+        min-width: 100px;
+        opacity: 0;
+        display: inline-block;
+        visibility: hidden;
+        position: absolute;
+        text-align: left;
+        width: auto;
+        background: #67C8EA;
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 1.2;
+        padding: 10px;
+        border-radius: 3px;
+        white-space: normal;
+        // white-space: nowrap; // Uncomment this line if you don't want to break line
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s ease-out;
+
+        &.top {
+          top: -45px;
+          left: 50%;
+          transform: translate(-50%, -150%);
+
+          &:before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 8px solid #67C8EA;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            bottom: -8px;
+            margin-left: -8px;
+            left: 50%;
+          }
+        }
+
+        &.bottom {
+          bottom: -15px;
+          left: 50%;
+          transform: translate(-50%, 150%);
+
+          &:before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            border-bottom: 8px solid #67C8EA;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            top: -8px;
+            margin-left: -8px;
+            left: 50%;
+          }
+        }
+
+        &.left {
+          left: -15px;
+          top: -15px;
+          transform: translate(-150%, -50%);
+
+          &:before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 8px solid #67C8EA;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            top: 50%;
+            margin-top: -8px;
+            right: -8px;
+          }
+        }
+
+        &.right {
+          right: -15px;
+          top: -15px;
+          transform: translate(150%, -50%);
+
+          &:before {
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            border-right: 8px solid #67C8EA;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            top: 50%;
+            margin-top: -8px;
+            left: -8px;
+          }
+        }
+      }
+    }
+  </style>
+</tooltip>
