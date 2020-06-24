@@ -1,69 +1,84 @@
 <home>
   <h2>הזמנה</h2>
-  <tooltip content="test2">test1</tooltip>
-  <tooltip content="test2">test1</tooltip>
-  <p>שלום וברוכים הבאים. טבע שלם הוא פרוייקט חדש תחת השמש. הוא נקרא גם פרוייקט המשי"ח - מערכת שלמה ישראל חיה. מטרתו היא קיימות של המין האנושי על פני אדמות. קהל היעד הוא כל תושבי כדור הארץ, והוא נועד להשיג אושר, שפע ושלום לכלל התושבים. לב הפרוייקט הוא מעל"ה - מערכת לימוד הנפש. המערכת בנויה עפ מודל עץ המלך - 12 ענפים ו12 היכלות של העמקה בריפוי והתפתחות הנפש, עד לנקודה הפנימית ביותר של אדם וטבע כמיכלול שלם. הייחוד.</p>
+  <p>
+    שלום וברוכים הבאים.
+    <tooltip content="{drash['wholeNature']}">טבע שלם</tooltip> הוא פרוייקט חדש תחת השמש.
+    הוא נקרא גם פרוייקט <tooltip content="{drash['wholeSystem']}">המשי"ח</tooltip> - מערכת שלמה ישראל חיה.
+    מטרתו היא קיימות של המין האנושי על פני אדמות.
+    קהל היעד הוא כל <tooltip content="{drash['earthDwellers']}">תושבי כדור הארץ</tooltip>, והוא נועד להשיג אושר, שפע ושלום לכלל התושבים.
+    לב הפרוייקט הוא <tooltip content="{drash['heartLearningSystem']}">מעל"ה</tooltip> - מערכת לימוד הנפש.
+    המערכת בנויה ע"פ מודל עץ המלך - <tooltip content="{drash['twelveBranches']}">12 ענפים</tooltip> ו<tooltip content="{drash['twelveHalls']}">12 היכלות</tooltip> של העמקה בריפוי והתפתחות הנפש, עד לנקודה הפנימית ביותר של אדם
+    וטבע כמיכלול שלם.
+    <tooltip content="{drash['uniqueness']}">הייחוד</tooltip>.
+  </p>
 
   <p>התהליך מתבצע במספר ערוצים:</p>
 
   <router>
     <nav>
       <ul>
-        <li><a href='#'>פטריאון</a></li>
-        <li><a href='#'>פורום</a></li>
-        <li><a href='https://books.teva-shalem.com/'>ספרים</a></li>
+        <li><a href="#">פטריאון</a></li>
+        <li><a href="#">פורום</a></li>
+        <li><a href="https://books.teva-shalem.com/">ספרים</a></li>
       </ul>
       <ul>
-        <li><a href='/art'>אומנות</a></li>
-        <li><a href='/school'>בי״ס פעימה</a></li>
-        <li><a href='/portal'>פורטל</a></li>
+        <li><a href="/art">אומנות</a></li>
+        <li><a href="/school">בי״ס פעימה</a></li>
+        <li><a href="/portal">פורטל</a></li>
       </ul>
     </nav>
-    <route path='/art'>
-      <art />
+    <route path="/art">
+      <art/>
     </route>
-    <route path='/school'>
-      <school />
+    <route path="/school">
+      <school/>
     </route>
-    <route path='/portal'>
-      <portal />
+    <route path="/portal">
+      <portal/>
     </route>
   </router>
 
-  <p>הנכם מוזמנים למצוא את החיבור האישי שלכם למעשה המרכבה הזה.<p>
-  <p>למצוא בית לנפש והדרכה לרפואתה.<p>
-  <p>להיות שותפים לבנייה של ממלכה משותפת, תורה חיה וגן עדן עלי אדמות.<p>
+  <p class="center">הנכם מוזמנים למצוא את <tooltip content="{drash['personalConnection']}">החיבור האישי</tooltip> שלכם למעשה המרכבה הזה.</p>
+  <p class="center">למצוא <tooltip content="{drash['homeForHeart']}">בית לנפש</tooltip> ו<tooltip content="{drash['balanceLeadership']}">הדרכה לרפואתה</tooltip>.</p>
+  <p class="center">להיות שותפים לבנייה של <tooltip content="{drash['sharedKingdom']}">ממלכה משותפת</tooltip>, <tooltip content="{drash['livingTheory']}">תורה חיה</tooltip> וגן עדן עלי אדמות.</p>
 
   <h2>מי אני?</h2>
-  <p>שמי דוד ישראל כהן. יליד 1979. נולדתי וגדלתי בירושלים. שירתתי בצבא כמפקד ספינה. משנת 2002 מתמודד עם סכיזופרניה ופוסט טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
-  <p>עוסק באומנות והדרכה לבריאות הנפש - 2009</p>
-  <p>ממייסדי פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית - 2013</p>
-  <p>מפתח דרך הפעימה לריפוי והתפתחות נפש האדם - 2018.</p>
-  <p>- מפתח מעל"ה - מערכת לימוד הנפש - 2020.</p>
-  <p>מפתח נוסחאות הפעימה - 2020</p>
+  <p>שמי דוד ישראל כהן. יליד 1979. נולדתי וגדלתי בירושלים. שירתתי בצבא כ<tooltip content="{drash['captainOfShip']}">מפקד ספינה</tooltip>. משנת <tooltip content="{drash['2002']}">2002</tooltip>  מתמודד עם סכיזופרניה ופוסט
+    טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
+  <p>משנת <tooltip content="{drash['2009']}">2009</tooltip> עוסק באומנות והדרכה לבריאות הנפש.</p>
+  <p>2013 - ממייסדי פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית</p>
+  <p><tooltip content="{drash['2018']}">2018</tooltip> - מפתח דרך הפעימה לריפוי והתפתחות נפש האדם.</p>
+  <p>2020 - מפתח מעל"ה - מערכת לימוד הנפש.</p>
+  <p>2020 - מפתח <tooltip content="{drash['2020']}">נוסחאות הפעימה</tooltip>.</p>
 
-  <p>:מערכת טבע שלם נמצאת בהתהוות. לקבלת עדכונים, פרטים נוספים או השתלבות אישית בתכנית</p>
+  <p>מערכת טבע שלם נמצאת בהתהוות. לקבלת עדכונים, פרטים נוספים או השתלבות אישית בתכנית:</p>
 
   <script>
-    import Tooltip from '../tooltip/tooltip.riot'
+      import Tooltip from '../components/tooltip/tooltip.riot'
+      import drash   from '../content/drash.json'
 
-    export default {
-      components: {
-        Tooltip,
+      export default {
+          drash,
+          components: {
+              Tooltip,
+          },
       }
-    }
   </script>
 
   <style>
-  nav {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    nav {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-  p {
-    text-align: right;
-  }
+    p {
+      text-align: right;
+    }
+
+    .center {
+      text-align: center;
+    }
   </style>
 </home>

@@ -1,7 +1,8 @@
 <tooltip>
-  <a class="TooltipTrigger" href="#"><slot/><div class="Tooltip" aria-expanded="{state.active}">
+  <a class="tooltip-trigger" href="#" aria-expanded="{state.active.toString()}"><slot/></a>
+  <div class="tooltip">
     <p class="{props.position || 'top'}">{props.content}</p>
-  </div></a>
+  </div>
 
   <script type="ts">
     import {TooltipComponent} from './types'
@@ -11,23 +12,30 @@
         state: {
           active: false
         },
-        onMounted() {
-          const tooltip = this.$('.TooltipTrigger')
+        onBeforeMount(props) {
+          if (!(this.slots && this.slots[0] && this.slots[0].html))
+            throw new Error(`Tooltip can't be created without trigger text`)
 
-          tooltip.addEventListener('focus', (ev) => {
+          if (!props.content)
+            throw new Error(`Tooltip for "${this.slots[0].html}" can't be created without content`)
+        },
+        onMounted() {
+          const trigger = this.$('.tooltip-trigger')
+
+          trigger.addEventListener('focus', (ev) => {
             this.update({active: true})
           })
 
-          tooltip.addEventListener('blur', (ev) => {
+          trigger.addEventListener('blur', (ev) => {
             this.update({active: false})
           })
 
-          tooltip.addEventListener('mouseenter', (ev) => {
-            ev.target.focus()
+          trigger.addEventListener('mouseenter', (ev) => {
+            trigger.focus()
           })
 
-          tooltip.addEventListener('mouseleave', (ev) => {
-            ev.target.blur()
+          trigger.addEventListener('mouseleave', (ev) => {
+            trigger.blur()
           })
         },
       }
@@ -37,51 +45,58 @@
   </script>
 
   <style type="scss">
-    .TooltipTrigger {
+    :host {
       position: relative;
+    }
+
+    .tooltip-trigger {
       border-bottom: 3px solid #67C8EA;
       cursor: pointer;
       transition: all 0.3s ease;
       text-decoration: none;
       color: inherit;
+
       &:focus {
         outline: 0;
         background: #A4E1F6;
 
-        p {
+        & + .tooltip {
           visibility: visible;
           opacity: 1;
-          &.top {
-            transform: translate(-50%, -100%);
-          }
-          &.bottom {
-            transform: translate(-50%, 100%);
-          }
-          &.left {
-            transform: translate(-100%, -50%);
-          }
-          &.right {
-            transform: translate(100%, -50%);
+
+          p {
+            &.top {
+              transform: translate(-50%, -100%);
+            }
+            &.bottom {
+              transform: translate(-50%, 100%);
+            }
+            &.left {
+              transform: translate(-100%, -50%);
+            }
+            &.right {
+              transform: translate(100%, -50%);
+            }
           }
         }
       }
     }
 
-    .Tooltip {
+    .tooltip {
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       z-index: 5;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
 
       p {
-        min-width: 100px;
-        opacity: 0;
+        min-width: 200px;
         display: inline-block;
-        visibility: hidden;
         position: absolute;
-        text-align: left;
         width: auto;
         background: #67C8EA;
         color: #ffffff;
@@ -95,7 +110,7 @@
         transition: all 0.2s ease-out;
 
         &.top {
-          top: -45px;
+          top: -25px;
           left: 50%;
           transform: translate(-50%, -150%);
 

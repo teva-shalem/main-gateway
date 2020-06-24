@@ -18,15 +18,11 @@
     "typescript"
   ],
   "devDependencies": {
-    "@babel/core": "7.6.0",
-    "@babel/preset-env": "7.6.0",
-    "@babel/preset-typescript": "^7.6.0",
     "@riotjs/compiler": "^4.3.11",
     "@riotjs/hot-reload": "4.0.0",
     "@riotjs/webpack-loader": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
-    "babel-loader": "^8.0.6",
     "eslint": "^6.4.0",
     "eslint-config-riot": "^3.0.0",
     "strip-indent": "^3.0.0",
