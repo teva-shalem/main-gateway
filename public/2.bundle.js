@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{14:function(n,t,e){"use strict";e.r(t),t.default={css:null,exports:null,template:function(n,t,e,p){return n("<p>making' art</p>",[])},name:"art"}}}]);

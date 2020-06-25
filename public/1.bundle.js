@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{13:function(e,n,t){"use strict";t.r(n),n.default={css:null,exports:null,template:function(e,n,t,p){return e('<p expr12="expr12"> </p>',[{redundantAttribute:"expr12",selector:"[expr12]",expressions:[{type:n.TEXT,childNodeIndex:0,evaluate:function(e){return["My name is ",e.props.name].join("")}}]}])},name:"about"}}}]);
