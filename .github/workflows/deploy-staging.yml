@@ -23,5 +23,5 @@ jobs:
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v2.1.0
       with:
-        build_dir: public/
+        build_dir: public
         fqdn: staging.teva-shalem.com
