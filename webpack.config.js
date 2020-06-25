@@ -3,15 +3,24 @@
 require('./riot-ts-preprocessor')
 require('./riot-sass-preprocessor')
 
-const {resolve} = require('path')
+const {resolve}         = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './app/main.ts',
   output: {
     path: resolve(__dirname, 'public'),
     publicPath: '/public/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'טבע שלם | השער הראשי',
+      meta: {
+        charset: 'UTF-8',
+      },
+    }),
+  ],
   devtool: 'inline',
   module: {
     rules: [
@@ -21,13 +30,13 @@ module.exports = {
         use: [{
           loader: '@riotjs/webpack-loader',
           options: {
-            hot: true
-          }
-        }]
+            hot: true,
+          },
+        }],
       },
-    ]
+    ],
   },
   resolve: {
-    extensions: ['.ts', '.riot', '.js']
-  }
+    extensions: ['.ts', '.riot', '.js'],
+  },
 }
