@@ -55,8 +55,8 @@ export default Vue.extend({
 
   &.king-tree-system {
     background-image: url("../assets/king-tree-system.jpg");
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 200px;
   }
 }
 </style>

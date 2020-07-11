@@ -1,26 +1,19 @@
 <template>
   <div id="app">
-    <h1>טבע שלם</h1>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/art">Art</router-link>
-    </div>
+    <MainNavigation></MainNavigation>
+
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#nav {
-  padding: 30px;
-  text-align: center;
+<script lang="ts">
+import MainNavigation from '@/components/MainNavigation.vue'
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+export default {
+  components: {MainNavigation},
 }
+</script>
+
+<style lang="scss">
+
 </style>

@@ -1,4 +1,12 @@
 module.exports = {
+  pwa: {
+    name: 'שער טבע שלם',
+    manifestOptions: {
+      icons: [
+        {'src': './img/icons/android-chrome-144x144.png', 'sizes': '144x144', 'type': 'image/png'},
+      ],
+    },
+  },
   chainWebpack: config => {
     config.module
       .rule('vue')
