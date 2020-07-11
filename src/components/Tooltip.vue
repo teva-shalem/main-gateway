@@ -1,20 +1,26 @@
-<template>
-  <span class="tooltip-container">
-    <a class="tooltip-trigger" href="#"
-       v-b-popover="{html: true, placement: position || 'top', content, trigger: 'hover focus'}"><slot></slot></a>
-  </span>
-</template>
+<template><span class="tooltip-container">
+  <b-link :id="identifier" class="tooltip-trigger"><slot></slot></b-link>
+
+  <b-popover :target="identifier" :placement="position || 'top'" triggers="hover focus">
+    <template #default><slot name="content"></slot></template>
+  </b-popover>
+</span></template>
 
 <script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name : 'Tooltip',
-  props: {
-    content : String,
-    position: String,
+export default {
+  name    : 'Tooltip',
+  props   : {
+    position: {
+      type   : String,
+      default: 'top',
+    },
   },
-})
+  computed: {
+    identifier: function() {
+      return Math.random().toString()
+    },
+  },
+}
 </script>
 
 <style scoped lang="scss">

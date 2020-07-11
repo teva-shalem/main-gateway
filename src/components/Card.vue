@@ -5,9 +5,7 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
+export default {
   name : 'Card',
   props: {
     title: String,
@@ -21,7 +19,7 @@ export default Vue.extend({
       required: false,
     }
   },
-})
+}
 </script>
 
 <style scoped lang="scss">
