@@ -1,5 +1,5 @@
 <template><b-navbar sticky toggleable="sm" type="light">
-  <b-navbar-brand to="/" tag="h1"><b-img fluid src="@/assets/logo.png"></b-img>טבע שלם</b-navbar-brand>
+  <b-navbar-brand to="/"><b-img src="@/assets/logo.png" class="navbar-brand-logo" />טבע שלם</b-navbar-brand>
 
   <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -25,5 +25,9 @@ export default {
 <style lang="scss" scoped>
 .navbar {
   background-color: lightblue;
+}
+
+.navbar-brand-logo {
+  height: 30px;
 }
 </style>
