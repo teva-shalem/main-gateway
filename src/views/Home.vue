@@ -1,10 +1,11 @@
 <template>
-  <div class="home container">
-    <div class="invitation row">
-      <div class="col">
-        <h1 class="text-center">מערכת ללימוד הנפש</h1>
-        <h2>הזמנה</h2>
-        <p>שלום וברוכים הבאים.
+  <b-container class="home">
+    <b-row class="invitation">
+      <b-col>
+        <h1 class="text-center">תהליך לימוד הנפש שלך</h1>
+        <p>שלום וברוכים הבאים,<br/>
+        שמי דוד ישראל כהן, יליד 1979. נולדתי וגדלתי בירושלים. שירתתי בצבא כ<DrashTooltip term="captainOfShip">מפקד ספינה</DrashTooltip>. משנת <DrashTooltip term="2002">2002</DrashTooltip> אני מתמודד עם סכיזופרניה ופוסט טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
+        <p>
           <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא פרוייקט חדש תחת השמש הבנוי על יסודות קדמונים.
           הוא נקרא גם פרוייקט <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
           מטרתו היא קיימות של המין האנושי על פני אדמות.
@@ -15,41 +16,33 @@
           <DrashTooltip term="uniqueness">הייחוד</DrashTooltip>.
         </p>
 
+        <p>
         מערכת לימוד הנפש מפתחת גוף ידע ייחודי ומשולב אשר נבנה מתוך מסע התמודדות של המחברים. <b-link href="https://books.teva-shalem.com/">גוף הידע</b-link> מהווה גשר בין תחומי החיים והטבע השונים, בין שפות שונות, ובונה תהליך של התהוות תורת חיים משותפת לאנושות.
-      </div>
-    </div>
+        </p>
+      </b-col>
+    </b-row>
 
-    <div class="who-am-i row">
-      <div class="col">
-        <h2>מי אני?</h2>
+    <b-row class="who-am-i">
+      <b-col>
+        <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אומנות</b-link> והדרכה לבריאות הנפש. ב<DrashTooltip term="2013">2013</DrashTooltip> ייסדתי את פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב2020 פיתחתי את מעל"ה - מערכת לימוד הנפש - ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
+      </b-col>
+    </b-row>
 
-        <p>שמי דוד ישראל כהן. יליד 1979. נולדתי וגדלתי בירושלים. שירתתי בצבא כ<DrashTooltip term="captainOfShip">מפקד ספינה</DrashTooltip>. משנת <DrashTooltip term="2002">2002</DrashTooltip> מתמודד עם סכיזופרניה ופוסט טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
+    <b-row class="sub-invitation">
+      <b-col lg>
+        <p>הנכם מוזמנים למצוא את <DrashTooltip term="personalConnection">החיבור האישי</DrashTooltip> שלכם ל<DrashTooltip term="workOfChariot">מעשה המרכבה</DrashTooltip> הזה.</p>
 
-        <p>משנת 2002 הקמת <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית.</p>
+        <p>למצוא <DrashTooltip term="homeForHeart">בית לנפש</DrashTooltip> ו<DrashTooltip term="balanceLeadership">הדרכה לרפואתה</DrashTooltip>.</p>
 
-        <p>משנת 2009 עוסק ב<b-link to="/art">אומנות</b-link> והדרכה לבריאות הנפש.</p>
+        <p>להיות שותפים לבנייה של <DrashTooltip term="sharedKingdom">ממלכה משותפת</DrashTooltip>, <DrashTooltip term="livingTheory">תורה חיה</DrashTooltip> וגן עדן עלי אדמות.</p>
 
-        <p><DrashTooltip term="2013">2013</DrashTooltip> - ממייסדי פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית</p>
-
-        <p><DrashTooltip term="2018">2018</DrashTooltip> - מפתח דרך הפעימה לריפוי והתפתחות נפש האדם.</p>
-
-        <p>2020 - מפתח מעל"ה - מערכת לימוד הנפש.</p>
-
-        <p>2020 - מפתח <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
-      </div>
-    </div>
-
-    <div class="sub-invitation row">
-      <div class="col">
-        <p class="text-center">הנכם מוזמנים למצוא את <DrashTooltip term="personalConnection">החיבור האישי</DrashTooltip> שלכם ל<DrashTooltip term="workOfChariot">מעשה המרכבה</DrashTooltip> הזה.</p>
-
-        <p class="text-center">למצוא <DrashTooltip term="homeForHeart">בית לנפש</DrashTooltip> ו<DrashTooltip term="balanceLeadership">הדרכה לרפואתה</DrashTooltip>.</p>
-
-        <p class="text-center">להיות שותפים לבנייה של <DrashTooltip term="sharedKingdom">ממלכה משותפת</DrashTooltip>, <DrashTooltip term="livingTheory">תורה חיה</DrashTooltip> וגן עדן עלי אדמות.</p>
-      </div>
-    </div>
-    <ConvertKitForm></ConvertKitForm>
-  </div>
+        <p>לקבלת עדכונים, פרטים נוספים או השתלבות אישית בתכנית:</p>
+      </b-col>
+      <b-col lg>
+        <ConvertKitForm class="mb-3"></ConvertKitForm>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
