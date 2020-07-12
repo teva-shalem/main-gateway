@@ -10,7 +10,7 @@
     "deploy": "env BASE_URL=staging.teva-shalem.com REPO=teva-shalem/main-gateway-stage ./scripts/deploy.sh"
   },
   "gitHooks": {
-    "pre-commit": "yarn lint"
+    "pre-commit": "yarn lint && yarn build"
   },
   "dependencies": {
     "bootstrap-vue": "^2.1.0",
