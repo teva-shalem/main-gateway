@@ -1,7 +1,7 @@
 <template><b-navbar sticky toggleable="sm" type="light">
   <b-navbar-brand to="/"><b-img src="@/assets/logo.png" class="navbar-brand-logo" />טבע שלם</b-navbar-brand>
 
-  <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+  <b-navbar-toggle target="nav-collapse" @click="$root.$emit('bv::hide::popover')"></b-navbar-toggle>
 
   <b-collapse id="nav-collapse" is-nav>
     <b-navbar-nav class="ml-auto">

@@ -20,3 +20,7 @@ body {
 p {
   @include font-size(1.25rem);
 }
+
+.nav-tabs {
+  @include font-size(1.5rem);
+}

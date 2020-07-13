@@ -13,6 +13,8 @@ module.exports = {
       .use('vue-loader')
       .loader('vue-loader')
       .tap(options => {
+        options.cacheDirectory = '.cache'
+        options.cacheIdentifier = 'cacheid'
         options.transformAssetUrls = {
           img: 'src',
           image: 'xlink:href',

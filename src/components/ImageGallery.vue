@@ -3,7 +3,7 @@
     <b-card-group columns>
       <b-card v-for="(src, index) in images" :key="index"
               @click="() => showImg(index)">
-        <b-img-lazy fluid :src="src"/>
+        <b-img fluid :src="src"/>
       </b-card>
     </b-card-group>
 
@@ -42,3 +42,5 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style scoped lang="scss"></style>

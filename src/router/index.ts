@@ -23,7 +23,11 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+})
+
+router.afterEach((to, from) => {
+  window.scrollTo({top: 0})
 })
 
 export default router

@@ -1,5 +1,5 @@
 <template>
-  <Tooltip>
+  <Tooltip :position="position" :show="showInitially">
     <slot></slot>
     <template #content>
       <div v-if="image" :class="image" class="popover-image"></div>
@@ -24,6 +24,14 @@ export default Vue.extend({
     },
     image: {
       type    : String,
+      required: false,
+    },
+    position: {
+      type   : String,
+      required: false,
+    },
+    showInitially: {
+      type   : Boolean,
       required: false,
     },
   },

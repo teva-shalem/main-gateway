@@ -1,7 +1,7 @@
 <template><span class="tooltip-container">
   <b-link :id="identifier" class="tooltip-trigger"><slot></slot></b-link>
 
-  <b-popover :target="identifier" :placement="position || 'top'" triggers="hover focus">
+  <b-popover :target="identifier" :placement="position || 'top'" triggers="hover focus" :show="show">
     <template #default><slot name="content"></slot></template>
   </b-popover>
 </span></template>
@@ -13,6 +13,10 @@ export default {
     position: {
       type   : String,
       default: 'top',
+    },
+    show: {
+      type   : Boolean,
+      default: false,
     },
   },
   computed: {
