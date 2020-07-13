@@ -8883,6 +8883,11 @@ vue-cli-plugin-bootstrap-vue@~0.6.0:
   resolved "https://registry.yarnpkg.com/vue-cli-plugin-bootstrap-vue/-/vue-cli-plugin-bootstrap-vue-0.6.0.tgz#cc500263b2ffd2c3d7ca1c3e5436860b0b20bb74"
   integrity sha512-sgW3hPlD26AHGJSCoPmEeF1l3KeB/r18nfOAq9RkhIZx5hEwV4jZuiBCxdiyOsha0L5PiegKoofA4gn4c0eLcQ==
 
+vue-easy-lightbox@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/vue-easy-lightbox/-/vue-easy-lightbox-0.14.0.tgz#723ec4f888afc7989e05c58c7fd4c7f9ac5c11bf"
+  integrity sha512-WUcqTcI3ndQen9KINh+qPb8sC4YdDliwoldwd6+TplhT1tBSqByAiLGQ3oEg/iwnz17HkX4K7x61BtoxgoKk2w==
+
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"

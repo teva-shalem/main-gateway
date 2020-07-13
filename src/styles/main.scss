@@ -12,3 +12,11 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+
+.nav {
+  padding-right: 0;
+}
+
+p {
+  @include font-size(1.25rem);
+}

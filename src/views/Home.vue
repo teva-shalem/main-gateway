@@ -1,21 +1,28 @@
 <template>
   <b-container class="home">
     <b-row>
-      <b-col><h2>תהליך לימוד הנפש שלך</h2></b-col>
+      <b-col><h2 class="text-center">תהליך לימוד הנפש שלך</h2></b-col>
     </b-row>
-    <b-row>
-      <b-col align-self="center">
+    <b-row class="justify-content-between">
+      <b-col xl="4" md="6" sm="12" align-self="center" class="m-md-auto">
         <p>שלום וברוכים הבאים,<br/>
         שמי דוד ישראל כהן, יליד 1979. נולדתי וגדלתי בירושלים. שירתתי בצבא כ<DrashTooltip term="captainOfShip">מפקד ספינה</DrashTooltip>. משנת <DrashTooltip term="2002">2002</DrashTooltip> אני מתמודד עם סכיזופרניה ופוסט טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
       </b-col>
 
-      <b-col align-self="center" style="flex: 0 1 33%;">
+      <b-col xl="3" md="4" cols="4" align-self="center" class="m-auto">
         <b-img src="@/assets/merkavah-logo.jpg" fluid />
       </b-col>
     </b-row>
 
-    <b-row>
-      <b-col>
+    <b-row class="justify-content-center mt-2 mb-2">
+      <b-col lg="6" md="8">
+        <b-embed type="iframe" allowfullscreen
+                 src="https://youtube.com/embed/jFGPInTzoqU"></b-embed>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="6" md="8">
         <p>
           <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא פרוייקט חדש תחת השמש הבנוי על יסודות קדמונים.
           הוא נקרא גם פרוייקט <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
@@ -30,25 +37,21 @@
         <p>
         מערכת לימוד הנפש מפתחת גוף ידע ייחודי ומשולב אשר נבנה מתוך מסע התמודדות של המחברים. <b-link href="https://books.teva-shalem.com/">גוף הידע</b-link> מהווה גשר בין תחומי החיים והטבע השונים, בין שפות שונות, ובונה תהליך של התהוות תורת חיים משותפת לאנושות.
         </p>
+
+        <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אומנות</b-link> והדרכה לבריאות הנפש. ב<DrashTooltip term="2013">2013</DrashTooltip> ייסדתי את פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב2020 פיתחתי את מעל"ה ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
       </b-col>
     </b-row>
 
     <b-row>
-      <b-col>
-        <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אומנות</b-link> והדרכה לבריאות הנפש. ב<DrashTooltip term="2013">2013</DrashTooltip> ייסדתי את פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב2020 פיתחתי את מעל"ה - מערכת לימוד הנפש - ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
-      </b-col>
-    </b-row>
+      <b-col class="strong-invitation" lg="7" align-self="center">
+        <p>הנכם מוזמנים למצוא את <DrashTooltip term="personalConnection">החיבור האישי</DrashTooltip> שלכם ל<DrashTooltip term="workOfChariot">מעשה המרכבה</DrashTooltip> הזה</p>
 
-    <b-row>
-      <b-col class="strong-invitation" lg align-self="center">
-        <p>הנכם מוזמנים למצוא את <DrashTooltip term="personalConnection">החיבור האישי</DrashTooltip> שלכם ל<DrashTooltip term="workOfChariot">מעשה המרכבה</DrashTooltip> הזה.</p>
+        <p>למצוא <DrashTooltip term="homeForHeart">בית לנפש</DrashTooltip> ו<DrashTooltip term="balanceLeadership">הדרכה לרפואתה</DrashTooltip></p>
 
-        <p>למצוא <DrashTooltip term="homeForHeart">בית לנפש</DrashTooltip> ו<DrashTooltip term="balanceLeadership">הדרכה לרפואתה</DrashTooltip>.</p>
-
-        <p>להיות שותפים לבנייה של <DrashTooltip term="sharedKingdom">ממלכה משותפת</DrashTooltip>, <DrashTooltip term="livingTheory">תורה חיה</DrashTooltip> וגן עדן עלי אדמות.</p>
+        <p>להיות שותפים לבנייה של <DrashTooltip term="sharedKingdom">ממלכה משותפת</DrashTooltip>, <DrashTooltip term="livingTheory">תורה חיה</DrashTooltip> וגן עדן עלי אדמות</p>
       </b-col>
 
-      <b-col lg>
+      <b-col lg="5">
         <p>לקבלת עדכונים, פרטים נוספים או השתלבות אישית בתכנית:</p>
 
         <ConvertKitForm class="mb-3"></ConvertKitForm>

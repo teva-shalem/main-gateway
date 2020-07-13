@@ -1,6 +1,6 @@
 <template>
   <b-card :header="title" :tag="link || externalLink ? 'b-link' : 'div'" :href="externalLink || false" :to="link || false">
-    <b-card-text>{{text}}</b-card-text>
+    <b-card-text><slot></slot></b-card-text>
   </b-card>
 </template>
 
@@ -9,7 +9,6 @@ export default {
   name : 'Card',
   props: {
     title: String,
-    text : String,
     link: {
       type: String,
       required: false,
