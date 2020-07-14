@@ -62,10 +62,16 @@ import ConvertKitForm from '@/components/ConvertKitForm.vue'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    title: 'טבע שלם | השער',
+    meta: [
+      {name: 'description', content: 'שער לעולם חדש הבנוי על יסודות קדמונים. פרוייקט חברתי שיתופי של התפתחות אישית וכללית ממשבר עולמי לחברה מתקדמת'},
+    ],
+  },
   components: {
     DrashTooltip,
     ConvertKitForm,
-  }
+  },
 }
 </script>
 

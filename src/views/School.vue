@@ -36,7 +36,14 @@
 
 <script>
 import DrashTooltip from '@/components/DrashTooltip'
+
 export default {
+  metaInfo: {
+    title: 'טבע שלם | בית ספר פעימה',
+    meta: [
+      {name: 'description', content: 'בית ספר פעימה מהווה מרכז חקר ולימוד הנפש. מטרתו הקמת מערך הדרכה לנפש האדם. כולם מוזמנים.'},
+    ],
+  },
   components: {DrashTooltip}
 }
 </script>

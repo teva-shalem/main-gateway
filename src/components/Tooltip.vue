@@ -28,8 +28,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "./src/styles/variables";
+
 .tooltip-trigger {
-  border-bottom: 3px solid #67C8EA;
+  border-bottom: 3px solid $info;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
@@ -37,7 +39,7 @@ export default {
 
   &:focus {
     outline: 0;
-    background: #A4E1F6;
+    background: rgba($info, 0.3);
   }
 }
 </style>

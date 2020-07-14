@@ -30,6 +30,12 @@
 import ImageGallery from '@/components/ImageGallery.vue'
 
 export default {
+  metaInfo: {
+    title: 'טבע שלם | אמנות',
+    meta: [
+      {name: 'description', content: 'האמנות נועדה לקרב את האדם לליבו וללמוד את נפשו. האמנות הפועמת משלבת מיומנות ואינטואיציה, הבעה וריאליזם.'},
+    ],
+  },
   components: {ImageGallery},
   computed: {
     paintings() {

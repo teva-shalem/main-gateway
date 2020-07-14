@@ -1,12 +1,31 @@
-$enable-shadows: true;
-$enable-gradients: true;
+//$enable-shadows: true;
+//$enable-gradients: true;
 $enable-responsive-font-sizes: true;
 
+$blue:    #1C61C6;
+$indigo:  #8338EA;
+$pink:    #FF006C;
+$orange:  #FB5507;
+$yellow:  #FFBF0B;
+$cyan:    #38ADB6;
+
+$primary:       $cyan;
+$secondary:     $pink;
+$success:       $indigo;
+$info:          $blue;
+$warning:       $yellow;
+$danger:        $orange;
+
 $font-family-sans-serif: 'Assistant', sans-serif;
-$popover-bg: #67C8EA;
+
+$popover-bg: $cyan;
 $popover-body-color: white;
 $popover-font-size: 1rem;
+
+$navbar-light-color: white;
+$navbar-light-active-color: white;
+
 $spacer: 1rem;
 $spacers: (
   6: ($spacer * 5)
-)
+);

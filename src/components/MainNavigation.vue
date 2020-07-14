@@ -6,7 +6,7 @@
   <b-collapse id="nav-collapse" is-nav>
     <b-navbar-nav class="ml-auto">
       <b-nav-item href="https://books.teva-shalem.com/">ספרים</b-nav-item>
-      <b-nav-item to="/art">אומנות</b-nav-item>
+      <b-nav-item to="/art">אמנות</b-nav-item>
       <b-nav-item to="/school">בי״ס פעימה</b-nav-item>
     </b-navbar-nav>
   </b-collapse>
@@ -23,11 +23,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.navbar {
-  background-color: lightblue;
-}
+@import './src/styles/variables';
 
+.navbar {
+  background-color: $primary;
+}
+.navbar-brand {
+  display: flex;
+}
 .navbar-brand-logo {
   height: 30px;
+}
+
+.router-link-active {
+  color: black;
 }
 </style>
