@@ -7,18 +7,15 @@
     <b-navbar-nav class="ml-auto">
       <b-nav-item href="https://books.teva-shalem.com/">ספרים</b-nav-item>
       <b-nav-item to="/art">אמנות</b-nav-item>
-      <b-nav-item to="/school">בי״ס פעימה</b-nav-item>
+      <b-nav-item to="/school">בית ספר פעימה</b-nav-item>
     </b-navbar-nav>
   </b-collapse>
-
-
 </b-navbar></template>
 
 <script lang="ts">
 
 export default {
   name: 'MainNavigation',
-
 }
 </script>
 
@@ -34,8 +31,10 @@ export default {
 .navbar-brand-logo {
   height: 30px;
 }
-
-.router-link-active {
+.navbar-light .navbar-toggler:active {
+  color: $info;
+}
+.navbar-light .navbar-nav .nav-link.router-link-active {
   color: black;
 }
 </style>

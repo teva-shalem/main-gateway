@@ -7,7 +7,8 @@
     "build": "vue-cli-service build --modern",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "deploy": "env BASE_URL=staging.teva-shalem.com REPO=teva-shalem/main-gateway-stage ./scripts/deploy.sh"
+    "deploy": "env BASE_URL=staging.teva-shalem.com REPO=teva-shalem/main-gateway-stage ./scripts/deploy.sh",
+    "deploy:world": "env BASE_URL=teva-shalem.com REPO=teva-shalem/main-gateway-world ./scripts/deploy.sh"
   },
   "gitHooks": {
     "pre-commit": "yarn lint"

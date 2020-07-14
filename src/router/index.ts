@@ -12,7 +12,7 @@ const routes: Array<RouteConfig> = [
   },
   {
     path     : '/art',
-    name     : 'אומנות',
+    name     : 'אמנות',
     component: () => import(/* webpackChunkName: "art" */ '../views/Art.vue'),
   },
   {

@@ -1,5 +1,5 @@
 <template>
-  <b-container class="home">
+  <b-container class="home mt-3">
     <b-row>
       <b-col class="mb-6"><h2 class="text-center">מהתמודדות למנהיגות<br/>לימוד ה<DrashTooltip term="heart" position="bottom" show-initially>נפש</DrashTooltip> שלך</h2></b-col>
     </b-row>
@@ -36,7 +36,7 @@
         המערכת מפתחת גוף ידע ייחודי ומשולב אשר נבנה מתוך מסע התמודדות של המחברים. <b-link href="https://books.teva-shalem.com/">גוף הידע</b-link> מהווה גשר בין תחומי החיים והטבע השונים, בין שפות שונות, ומאפשרת תהליך נובע של היבנות תורת חיים משותפת לאנושות.
         </p>
 
-        <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אומנות</b-link> והדרכה לבריאות הנפש. ב-<DrashTooltip term="2013">2013</DrashTooltip> ייסדתי את פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב-<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב-2020 פיתחתי את מעל"ה ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
+        <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אמנות</b-link> והדרכה לבריאות הנפש. ב-<DrashTooltip term="2013">2013</DrashTooltip> ייסדתי את פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב-<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב-2020 פיתחתי את מעל"ה ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
       </b-col>
     </b-row>
 
