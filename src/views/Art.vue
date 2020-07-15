@@ -26,20 +26,17 @@
     </b-row>
   </b-container>
 </template>
-<script>
-import ImageGallery from '@/components/ImageGallery.vue'
+
+<script lang="ts">
+import ImageGallery  from '@/components/ImageGallery.vue'
+import {getMetaInfo} from '@/utils/getMetaInfo'
 
 export default {
-  metaInfo: {
-    title: 'טבע שלם | אמנות',
-    meta: [
-      {name: 'description', content: 'האמנות נועדה לקרב את האדם לליבו וללמוד את נפשו. האמנות הפועמת משלבת מיומנות ואינטואיציה, הבעה וריאליזם.'},
-    ],
-  },
+  metaInfo: getMetaInfo('art'),
   components: {ImageGallery},
   computed: {
     paintings() {
-      return new Array(10).fill('/img/painting-').map((_, i) => (_ + (i + 1) + '.jpg'))
+      return Array(10).fill('/img/painting-').map((_, i) => (_ + (i + 1) + '.jpg'))
     },
     videos() {
       return ['UztiH2FJHjQ','mR8DAB3YlzM','NMzZZwJoLJo','Q2HSjAX_YiI'].map(_ => 'https://www.youtube.com/embed/' + _)

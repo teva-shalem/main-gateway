@@ -27,13 +27,13 @@
           <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא פרוייקט חדש תחת השמש הבנוי על יסודות קדמונים.
           הוא נקרא גם פרוייקט <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
           מטרתו היא קיימות של המין האנושי על פני אדמות.
-          קהל היעד הוא כל <DrashTooltip term="earthDwellers">תושבי כדור הארץ</DrashTooltip>, והוא נועד להשיג אושר, שפע ושלום לכלל המתיישבים.
+          קהל היעד הוא כל <DrashTooltip term="earthDwellers">תושבי כדור הארץ</DrashTooltip>, והוא נועד להשיג אושר, שפע ושלום לכלל התושבים.
           המערכת בנויה ע"פ מודל <DrashTooltip image="king-tree-system">עץ המלך</DrashTooltip>: 12 <DrashTooltip term="branches">ענפים</DrashTooltip> ו-12 <DrashTooltip term="halls">היכלות</DrashTooltip> של העמקה בריפוי והתפתחות הנפש, עד <DrashTooltip image="innermost-point">לנקודה הפנימית ביותר</DrashTooltip> של אדם וטבע כמיכלול שלם.
           <DrashTooltip term="uniqueness">הייחוד</DrashTooltip>.
         </p>
 
         <p>לב הפרוייקט הוא <DrashTooltip term="heartLearningSystem">מעל"ה</DrashTooltip> - <strong>מערכת לימוד הנפש</strong>.
-        המערכת מפתחת גוף ידע ייחודי ומשולב אשר נבנה מתוך מסע התמודדות של המחברים. <b-link href="https://books.teva-shalem.com/">גוף הידע</b-link> מהווה גשר בין תחומי החיים והטבע השונים, בין שפות שונות, ומאפשרת תהליך נובע של היבנות תורת חיים משותפת לאנושות.
+        המערכת מפתחת גוף ידע ייחודי ומשולב אשר נבנה מתוך מסע התמודדות של המחברים. <b-link href="https://books.teva-shalem.com/">גוף הידע</b-link> מהווה גשר בין תחומי החיים והטבע השונים, בין שפות שונות, ומאפשר תהליך נובע של היבנות תורת חיים משותפת לאנושות.
         </p>
 
         <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אמנות</b-link> והדרכה לבריאות הנפש. ב-<DrashTooltip term="2013">2013</DrashTooltip> ייסדתי את פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב-<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב-2020 פיתחתי את מעל"ה ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
@@ -56,18 +56,14 @@
   </b-container>
 </template>
 
-<script>
-import DrashTooltip from '@/components/DrashTooltip.vue'
+<script lang="ts">
+import DrashTooltip   from '@/components/DrashTooltip.vue'
 import ConvertKitForm from '@/components/ConvertKitForm.vue'
+import {getMetaInfo}  from '@/utils/getMetaInfo'
 
 export default {
   name: 'Home',
-  metaInfo: {
-    title: 'טבע שלם | השער',
-    meta: [
-      {name: 'description', content: 'שער לעולם חדש הבנוי על יסודות קדמונים. פרוייקט חברתי שיתופי של התפתחות אישית וכללית ממשבר עולמי לחברה מתקדמת'},
-    ],
-  },
+  metaInfo: getMetaInfo('home'),
   components: {
     DrashTooltip,
     ConvertKitForm,
