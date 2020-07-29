@@ -21,6 +21,10 @@
                        :src="video"></b-embed>
             </div>
           </b-tab>
+
+          <b-tab title="סכמות" active>
+            <ImageGallery :images="schemes"></ImageGallery>
+          </b-tab>
         </b-tabs>
       </b-col>
     </b-row>
@@ -35,6 +39,9 @@ export default {
   metaInfo: getMetaInfo('art'),
   components: {ImageGallery},
   computed: {
+    schemes() {
+      return ['/img/scheme-battlefield.jpg', '/img/scheme-solider.jpg']
+    },
     paintings() {
       return Array(10).fill('/img/painting-').map((_, i) => (_ + (i + 1) + '.jpg'))
     },
