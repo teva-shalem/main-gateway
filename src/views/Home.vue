@@ -46,7 +46,7 @@
 
         <p>למצוא <DrashTooltip term="homeForHeart">בית לנפש</DrashTooltip> ו<DrashTooltip term="balanceLeadership">הדרכה לרפואתה</DrashTooltip></p>
 
-        <p>להיות שותפים לבנייה של <DrashTooltip term="sharedKingdom">ממלכה משותפת</DrashTooltip>, <DrashTooltip term="livingTheory">תורה חיה</DrashTooltip> וגן עדן עלי אדמות</p>
+        <p>להיות שותפים לבנייה של <DrashTooltip term="sharedKingdom">ממלכה משותפת</DrashTooltip>, <DrashTooltip term="livingTheory">תורה חיה</DrashTooltip> וגן <b-link target="_blank" href="https://www.google.com/maps/d/edit?mid=1dEhTJtIyM25EJDB6gC0jOnIqYz4XNAcW&usp=sharing">עדן עלי אדמות</b-link></p>
       </b-col>
 
       <b-col lg="5" class="mt-2">

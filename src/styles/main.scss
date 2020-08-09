@@ -17,6 +17,11 @@ body {
   padding-right: 0;
 }
 
+a {
+  color: $info;
+  text-decoration: underline;
+}
+
 p {
   @include font-size(1.25rem);
 }
