@@ -43,4 +43,8 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.card {
+  cursor: pointer
+}
+</style>

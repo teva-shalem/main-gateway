@@ -3,6 +3,8 @@
     <MainNavigation></MainNavigation>
 
     <router-view/>
+
+    <footer>האתר נבנה ע"י אור לנדאו</footer>
   </div>
 </template>
 
@@ -15,5 +17,13 @@ export default {
 </script>
 
 <style lang="scss">
-
+footer {
+  display: flex;
+  border-top: 1px black solid;
+  padding: 0.5rem 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.8em;
+  background-color: white;
+}
 </style>
