@@ -40,7 +40,9 @@ export default {
   components: {ImageGallery},
   computed: {
     schemes() {
-      return ['/img/scheme-battlefield.jpg', '/img/scheme-solider.jpg', '/img/scheme-manganon.jpg', '/img/scheme-history.jpg', '/img/scheme-dimensions.jpg', '/img/scheme-moment.jpg', '/img/scheme-mental-industry.jpg']
+      return ['/img/scheme-battlefield.jpg', '/img/scheme-solider.jpg', '/img/scheme-manganon.jpg', 
+      '/img/scheme-history.jpg', '/img/scheme-dimensions.jpg', '/img/scheme-moment.jpg', 
+      '/img/scheme-mental-industry.jpg', '/img/scheme-humangineering.jpg']
     },
     paintings() {
       return Array(10).fill('/img/painting-').map((_, i) => (_ + (i + 1) + '.jpg'))
