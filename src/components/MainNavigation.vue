@@ -25,6 +25,15 @@ export default {
 .navbar {
   background-color: $primary;
 }
+
+.nav-link {
+  text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
 .navbar-brand {
   display: flex;
 }

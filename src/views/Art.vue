@@ -33,16 +33,16 @@
 
 <script lang="ts">
 import ImageGallery  from '@/components/ImageGallery.vue'
-import {getMetaInfo} from '@/utils/getMetaInfo'
+// import {getMetaInfo} from '@/utils/getMetaInfo'
 
 export default {
-  metaInfo: getMetaInfo('art'),
+  // metaInfo: getMetaInfo('art'),
   components: {ImageGallery},
   computed: {
     schemes() {
       return ['/img/scheme-battlefield.jpg', '/img/scheme-solider.jpg', '/img/scheme-manganon.jpg', 
       '/img/scheme-history.jpg', '/img/scheme-dimensions.jpg', '/img/scheme-moment.jpg', 
-      '/img/scheme-mental-industry.jpg', '/img/scheme-humangineering.jpg']
+      '/img/scheme-mental-industry.jpg', '/img/scheme-humangineering.jpg', '/img/scheme-kingdom.jpg']
     },
     paintings() {
       return Array(10).fill('/img/painting-').map((_, i) => (_ + (i + 1) + '.jpg'))

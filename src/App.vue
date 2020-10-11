@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app-container">
     <MainNavigation></MainNavigation>
 
     <router-view/>
@@ -17,6 +17,12 @@ export default {
 </script>
 
 <style lang="scss">
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   display: flex;
   border-top: 1px black solid;
@@ -25,5 +31,6 @@ footer {
   justify-content: center;
   font-size: 0.8em;
   background-color: white;
+  margin-top: auto;
 }
 </style>

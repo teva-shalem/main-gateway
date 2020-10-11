@@ -22,15 +22,13 @@ const pageMeta: Record<string, PageMeta> = {
 
 export const getMetaInfo = (pageName: string): MetaInfo => {
   const {title, description} = pageMeta[pageName]
+  const fullTitle = `טבע שלם | ${title}`
 
   const metaInfo: MetaInfo = {
-    titleTemplate: 'טבע שלם | %s',
-    title        : title,
+    title        : fullTitle,
     meta         : [
       {property: 'og:type', content : 'website'},
-      {property: 'og:title', content : title},
-      {property: 'og:title', content : title},
-      {property: 'og:title', content : title},
+      {property: 'og:title', content : fullTitle},
       {property: 'og:description', content : description},
       {property: 'og:image', content : '/img/merkavah-logo.jpg'},
       {name: 'description', content: description},

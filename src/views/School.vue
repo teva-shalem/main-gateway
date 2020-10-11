@@ -40,10 +40,10 @@
 
 <script lang="ts">
 import DrashTooltip  from '@/components/DrashTooltip.vue'
-import {getMetaInfo} from '@/utils/getMetaInfo'
+// import {getMetaInfo} from '@/utils/getMetaInfo'
 
 export default {
-  metaInfo: getMetaInfo('school'),
+  // metaInfo: getMetaInfo('school'),
   components: {DrashTooltip}
 }
 </script>

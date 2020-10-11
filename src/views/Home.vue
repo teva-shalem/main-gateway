@@ -59,11 +59,11 @@
 <script lang="ts">
 import DrashTooltip   from '@/components/DrashTooltip.vue'
 import ConvertKitForm from '@/components/ConvertKitForm.vue'
-import {getMetaInfo}  from '@/utils/getMetaInfo'
+// import {getMetaInfo}  from '@/utils/getMetaInfo'
 
 export default {
   name: 'Home',
-  metaInfo: getMetaInfo('home'),
+  // metaInfo: getMetaInfo('home'),
   components: {
     DrashTooltip,
     ConvertKitForm,

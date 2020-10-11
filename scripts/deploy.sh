@@ -3,19 +3,6 @@
 # abort on errors
 set -e
 
-# build
-npm run build
+yarn build
 
-# navigate into the build output directory
-cd dist
-
-# if you are deploying to a custom domain
- echo $BASE_URL > CNAME
-
-git init
-git add -A
-git commit -m 'deploy'
-
- git push -f https://github.com/"${REPO}".git master:gh-pages
-
-cd -
+rsync -av --delete dist/ root@151.115.33.32:/var/www/html/"${FOLDER}" 

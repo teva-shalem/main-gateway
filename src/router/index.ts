@@ -1,8 +1,11 @@
 import Vue from 'vue'
 import VueRouter, {RouteConfig} from 'vue-router'
+// import VueMeta from 'vue-meta'
 import Home from '../views/Home.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
+// Vue.use(VueMeta, {refreshOnceOnNavigation: true})
 
 const routes: Array<RouteConfig> = [
   {
@@ -20,9 +23,11 @@ const routes: Array<RouteConfig> = [
     name     : 'בית ספר פעימה',
     component: () => import(/* webpackChunkName: "school" */ '../views/School.vue'),
   },
+  { path: '*', component: NotFound }
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes,
 })
 
