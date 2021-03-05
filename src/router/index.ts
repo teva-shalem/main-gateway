@@ -28,6 +28,11 @@ const routes: Array<RouteConfig> = [
     name     : 'הבית',
     component: () => import(/* webpackChunkName: "building" */ '../views/Building.vue'),
   },
+  {
+    path     : '/contact',
+    name     : 'יצירת קשר',
+    component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
+  },
   { path: '*', component: NotFound }
 ]
 
