@@ -11,7 +11,7 @@
     "deploy:world": "env FOLDER=main-gateway ./scripts/deploy.sh"
   },
   "gitHooks": {
-    "pre-commit": "yarn lint"
+    "pre-commit": "npm run lint"
   },
   "dependencies": {
     "bootstrap-vue": "^2.21.1",
