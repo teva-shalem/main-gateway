@@ -23,6 +23,11 @@ const routes: Array<RouteConfig> = [
     name     : 'בית ספר פעימה',
     component: () => import(/* webpackChunkName: "school" */ '../views/School.vue'),
   },
+  {
+    path     : '/home',
+    name     : 'הבית',
+    component: () => import(/* webpackChunkName: "building" */ '../views/Building.vue'),
+  },
   { path: '*', component: NotFound }
 ]
 

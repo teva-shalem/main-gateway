@@ -3,6 +3,6 @@
 # abort on errors
 set -e
 
-yarn build
+#yarn build
 
 rsync -av --delete dist/ root@151.115.33.32:/var/www/html/"${FOLDER}" 

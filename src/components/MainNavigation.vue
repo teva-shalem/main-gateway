@@ -8,6 +8,7 @@
       <b-nav-item href="https://books.teva-shalem.com/">ספרים</b-nav-item>
       <b-nav-item to="/art">אמנות</b-nav-item>
       <b-nav-item to="/school">בית ספר פעימה</b-nav-item>
+      <b-nav-item to="/home">הבית</b-nav-item>
     </b-navbar-nav>
   </b-collapse>
 </b-navbar></template>
