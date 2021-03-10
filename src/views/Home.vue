@@ -1,7 +1,9 @@
 <template>
   <b-container class="home mt-3">
-    <b-row>
-      <b-col class="mb-6"><h2 class="text-center">מהתמודדות למנהיגות<br/>לימוד ה<DrashTooltip term="heart" position="bottom" show-initially>נפש</DrashTooltip> שלך</h2></b-col>
+    <b-row class="text-center">
+      <b-col lg class="mb-6"><h2>מהתמודדות למנהיגות<br/>ממשבר לצמיחה</h2>
+      <h1>לימוד ה<DrashTooltip term="heart" position="bottom" show-initially>נפש</DrashTooltip> שלך</h1></b-col>
+      <b-col lg class="i-title">דרך הפעימה</b-col>
     </b-row>
     <b-row class="justify-content-between">
       <b-col xl="4" lg="6" md="6" cols="9" align-self="center" class="m-md-auto">
@@ -75,5 +77,16 @@ export default {
 .strong-invitation {
   text-align: center;
   font-weight: bold;
+}
+.i-title {
+  font-size: 2rem;
+  font-style: italic;
+
+  @media (min-width: 992px) {
+    position: absolute;
+    text-align: right;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 </style>

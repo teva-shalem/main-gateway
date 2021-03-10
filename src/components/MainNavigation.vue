@@ -29,6 +29,10 @@ export default {
   background-color: $primary;
 }
 
+.nav-item {
+  text-align: center;
+}
+
 .nav-link {
   text-decoration: none;
   
