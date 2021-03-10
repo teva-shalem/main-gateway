@@ -9,6 +9,7 @@
       <b-nav-item to="/art">אמנות</b-nav-item>
       <b-nav-item to="/school">בית ספר פעימה</b-nav-item>
       <b-nav-item to="/home">הבית</b-nav-item>
+      <b-nav-item to="/healing-space">מרחב הבראה</b-nav-item>
       <b-nav-item to="/contact">יצירת קשר</b-nav-item>
     </b-navbar-nav>
   </b-collapse>

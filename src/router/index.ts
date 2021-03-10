@@ -28,6 +28,12 @@ const routes: Array<RouteConfig> = [
     name     : 'הבית',
     component: () => import(/* webpackChunkName: "building" */ '../views/Building.vue'),
   },
+  
+  {
+    path     : '/healing-space',
+    name     : 'מרחב הבראה',
+    component: () => import(/* webpackChunkName: "healingSpace" */ '../views/HealingSpace.vue'),
+  },
   {
     path     : '/contact',
     name     : 'יצירת קשר',
