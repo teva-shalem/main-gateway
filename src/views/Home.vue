@@ -19,7 +19,7 @@
     <b-row class="justify-content-center mt-2 mb-2">
       <b-col lg="6" md="8">
         <b-embed type="iframe" allowfullscreen
-                 src="https://youtube.com/embed/jFGPInTzoqU"></b-embed>
+                 src="https://youtube.com/embed/UwHVBFvanlc"></b-embed>
       </b-col>
     </b-row>
 
