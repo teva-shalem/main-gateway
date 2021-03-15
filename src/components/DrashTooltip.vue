@@ -49,13 +49,11 @@ export default Vue.extend({
   },
   mounted() {
     if (this.shouldTrack) {
-      this.$root.$on('bv::popover::show', this.track)
+      const {$gtag, term} = this
+      this.$root.$on('bv::popover::show', () => {
+        $gtag.event('exposed-drash', {term})
+      })
     }
-  },
-  methods: {
-    track () {
-      this.$gtag.event('exposed-drash', {term: this.term})
-    },
   },
   components: {
     Tooltip,

@@ -15,8 +15,6 @@
 </template>
 
 <script lang="ts">
-import DrashTooltip  from '@/components/DrashTooltip.vue'
-
 export default {
   // metaInfo: getMetaInfo('school'),
   // components: {DrashTooltip}
