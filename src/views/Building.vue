@@ -35,7 +35,7 @@
 
         <h2>מבנה שלוש הקומות</h2>
 
-        <table>
+        <table class="table-content">
             <thead>
             <tr>
                 <th>קומה</th><th>איבר</th><th>יסוד</th>
@@ -91,10 +91,3 @@ export default {
   components: {DrashTooltip}
 }
 </script>
-
-<style lang="scss">
-table th, table td {
-    border: 1px black solid;
-    padding: 10px;
-}
-</style>
