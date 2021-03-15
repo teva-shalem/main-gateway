@@ -49,9 +49,7 @@ export default Vue.extend({
   },
   mounted() {
     if (this.shouldTrack) {
-      this.$root.$on('bv::popover::show', bvEventObj => {
-        this.track()
-      })
+      this.$root.$on('bv::popover::show', this.track)
     }
   },
   methods: {
