@@ -51,8 +51,9 @@ export default Vue.extend({
     if (this.shouldTrack) {
       const {$gtag, term, $refs: {tooltip}} = this
 
-      this.$root.$on('bv::popover::show', (e) => {
+      this.$root.$on('bv::popover::show', (e: any) => {
         try {
+          // @ts-ignore
           const isSameTooltip = e.target.id === tooltip.$children[0].$el.id
           if (isSameTooltip) $gtag.event('exposed-drash', {term})
         } catch (e) {
