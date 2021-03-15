@@ -1,5 +1,5 @@
 <template>
-  <Tooltip :position="position" :show="showInitially">
+  <Tooltip :position="position" :show="showInitially" ref="tooltip" :id="term">
     <slot></slot>
     <template #content>
       <div v-if="image" :class="image" class="popover-image"></div>
@@ -49,9 +49,15 @@ export default Vue.extend({
   },
   mounted() {
     if (this.shouldTrack) {
-      const {$gtag, term} = this
-      this.$root.$on('bv::popover::show', () => {
-        $gtag.event('exposed-drash', {term})
+      const {$gtag, term, $refs: {tooltip}} = this
+
+      this.$root.$on('bv::popover::show', (e) => {
+        try {
+          const isSameTooltip = e.target.id === tooltip.$children[0].$el.id
+          if (isSameTooltip) $gtag.event('exposed-drash', {term})
+        } catch (e) {
+          console.error(e)
+        }
       })
     }
   },
