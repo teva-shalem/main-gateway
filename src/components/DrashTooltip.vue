@@ -34,6 +34,10 @@ export default Vue.extend({
       type   : Boolean,
       required: false,
     },
+    shouldTrack: {
+      type   : Boolean,
+      required: false,
+    },
   },
   computed  : {
     definition: function() {
@@ -41,6 +45,18 @@ export default Vue.extend({
         throw Error('DrashTooltip failed with unknown term :' + this.term)
 
       return this.term ? d[this.term] : ''
+    },
+  },
+  mounted() {
+    if (this.shouldTrack) {
+      this.$root.$on('bv::popover::show', bvEventObj => {
+        this.track()
+      })
+    }
+  },
+  methods: {
+    track () {
+      this.$gtag.event('exposed-drash', {term: this.term})
     },
   },
   components: {

@@ -1,5 +1,5 @@
 <template>
-  <b-container class="building">
+  <b-container>
     <b-row>
       <b-col xl="6" lg="7" md="9" class="mx-auto mt-3">
         <h1>המעיין הפועם - הבית</h1>

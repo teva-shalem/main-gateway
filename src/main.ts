@@ -9,7 +9,10 @@ import router from './router'
 Vue.config.productionTip = false
 
 Vue.use(VueGtag, {
-  config: { id: "UA-163403399-3" }
+  config: { id: "UA-163403399-3" },
+  includes: [
+    { id: 'G-6THT1JQVQ1' },
+  ],
 }, router)
 
 new Vue({

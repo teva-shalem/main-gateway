@@ -11,6 +11,7 @@
       <b-nav-item to="/home">הבית</b-nav-item>
       <b-nav-item to="/healing-space">מרחב הבראה</b-nav-item>
       <b-nav-item to="/maala">מעל״ה</b-nav-item>
+      <b-nav-item to="/forum">הפורום</b-nav-item>
       <b-nav-item to="/contact">יצירת קשר</b-nav-item>
     </b-navbar-nav>
   </b-collapse>

@@ -39,6 +39,11 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "maala" */ '../views/Maala.vue'),
   },
   {
+    path     : '/forum',
+    name     : 'הפורום',
+    component: () => import(/* webpackChunkName: "forum" */ '../views/Forum.vue'),
+  },
+  {
     path     : '/contact',
     name     : 'יצירת קשר',
     component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
