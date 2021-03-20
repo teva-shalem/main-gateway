@@ -30,7 +30,11 @@ p {
   @include font-size(1.5rem);
 }
 
-.table-content th, .table-content td {
-  border: 1px black solid;
-  padding: 10px;
+.table-content {
+  margin-bottom: 1rem;
+  th, td {
+    border: 1px black solid;
+    padding: 10px;
+  }
+  
 }
