@@ -50,7 +50,7 @@ export default Vue.extend({
     if (this.shouldTrack) {
       const {$gtag, term, $refs: {tooltip}} = this
 
-      this.$root.$on('bv::popover::show', (e: any) => {
+      this.$root.$on('bv::popover::show', (e: Event) => {
         try {
           // @ts-ignore
           const isSameTooltip = e.target.id === tooltip.$children[0].$el.id

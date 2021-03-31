@@ -1,4 +1,4 @@
-import {Struct, create, Infer, tuple, is} from 'superstruct'
+import {Struct, create, is} from 'superstruct'
 
 export class JsonData<T> {
     data: T
