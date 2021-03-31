@@ -1,4 +1,5 @@
-<template><b-navbar sticky toggleable="md" type="light">
+<template>
+<b-navbar sticky toggleable="md" type="light">
   <b-navbar-brand to="/"><b-img src="@/assets/logo.png" class="navbar-brand-logo" />טבע שלם</b-navbar-brand>
 
   <b-navbar-toggle target="nav-collapse" @click="$root.$emit('bv::hide::popover')">
@@ -12,6 +13,7 @@
       <b-nav-item href="https://books.teva-shalem.com/">ספרים</b-nav-item>
       <b-nav-item to="/art">אמנות</b-nav-item>
       <b-nav-item to="/school">בית ספר פעימה</b-nav-item>
+      <b-nav-item to="/luz">לו״ז</b-nav-item>
       <b-nav-item to="/home">הבית</b-nav-item>
       <b-nav-item to="/healing-space">מרחב הבראה</b-nav-item>
       <b-nav-item to="/maala">מעל״ה</b-nav-item>
@@ -23,7 +25,8 @@
       <b-nav-item class="patreon-link" target="_blank" href="https://www.patreon.com/bePatron?u=52315285">לקהילת ״פרי החיים״</b-nav-item>
     </b-navbar-nav>
   </b-collapse>
-</b-navbar></template>
+</b-navbar>
+</template>
 
 <script lang="ts">
 export default {

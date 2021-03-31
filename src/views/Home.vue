@@ -30,7 +30,7 @@
           הוא נקרא גם פרוייקט <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
           מטרתו היא קיימות של המין האנושי על פני אדמות.
           קהל היעד הוא כל <DrashTooltip term="earthDwellers">תושבי כדור הארץ</DrashTooltip>, והוא נועד להשיג אושר, שפע ושלום לכלל התושבים.
-          המערכת בנויה ע"פ מודל <DrashTooltip image="king-tree-system">עץ המלך</DrashTooltip>: 12 <DrashTooltip term="branches">ענפים</DrashTooltip> ו-12 <DrashTooltip term="halls">היכלות</DrashTooltip> של העמקה בריפוי והתפתחות הנפש, עד <DrashTooltip image="innermost-point">לנקודה הפנימית ביותר</DrashTooltip> של אדם וטבע כמיכלול שלם.
+          המערכת בנויה ע"פ מודל <DrashTooltip term="kingTreeSystem">עץ המלך</DrashTooltip>: 12 <DrashTooltip term="branches">ענפים</DrashTooltip> ו-12 <DrashTooltip term="halls">היכלות</DrashTooltip> של העמקה בריפוי והתפתחות הנפש, עד <DrashTooltip term="innermostPoint">לנקודה הפנימית ביותר</DrashTooltip> של אדם וטבע כמיכלול שלם.
           <DrashTooltip term="uniqueness">הייחוד</DrashTooltip>.
         </p>
 

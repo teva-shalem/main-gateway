@@ -24,6 +24,11 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "school" */ '../views/School.vue'),
   },
   {
+    path     : '/luz',
+    name     : 'לו״ז',
+    component: () => import(/* webpackChunkName: "luz" */ '../views/Luz.vue'),
+  },
+  {
     path     : '/home',
     name     : 'הבית',
     component: () => import(/* webpackChunkName: "building" */ '../views/Building.vue'),
