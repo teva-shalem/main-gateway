@@ -5,29 +5,29 @@
       <h1>לימוד ה<DrashTooltip term="heart" position="bottom" show-initially>נפש</DrashTooltip> שלך</h1></b-col>
       <b-col lg class="i-title">דרך הפעימה</b-col>
     </b-row>
-    <b-row class="justify-content-between">
-      <b-col xl="4" lg="6" md="6" cols="9" align-self="center" class="m-md-auto">
+    <b-row class="justify-content-center">
+      
+      <b-col lg="6" md="8">
+        <b-row class="justify-content-between">
+          <b-col md="8" cols="8" align-self="center" class="m-md-auto">
         <p>שלום וברוכים הבאים,<br/>
         שמי דוד ישראל כהן. נולדתי וגדלתי בירושלים. שירתתי בצבא כ<DrashTooltip term="captainOfShip">מפקד ספינה</DrashTooltip>. משנת <DrashTooltip term="2002">2002</DrashTooltip> אני מתמודד עם סכיזופרניה ופוסט טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
       </b-col>
 
-      <b-col xl="3" md="4" cols="3" align-self="center" class="mx-auto">
+      <b-col md="4" cols="4" align-self="center" class="mx-auto">
         <b-img src="@/assets/merkavah-logo.jpg" fluid />
       </b-col>
-    </b-row>
-
-    <b-row class="justify-content-center mt-2 mb-2">
-      <b-col lg="6" md="8">
-        <b-embed type="iframe" allowfullscreen
-                 src="https://youtube.com/embed/UwHVBFvanlc"></b-embed>
+        </b-row>
       </b-col>
+
+      
     </b-row>
 
     <b-row class="justify-content-center">
       <b-col lg="6" md="8">
         <p class="mt-2">
-          <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא פרוייקט חדש תחת השמש הבנוי על יסודות קדמונים.
-          הוא נקרא גם פרוייקט <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
+          <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא מיזם חדש תחת השמש הבנוי על יסודות קדמונים ומהווה עמוד תווך בבניין <DrashTooltip term="thirdHome">בית שלישי</DrashTooltip> של ממלכת ישראל בימינו.
+          המיזם נקרא גם <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
           מטרתו היא קיימות של המין האנושי על פני אדמות.
           קהל היעד הוא כל <DrashTooltip term="earthDwellers">תושבי כדור הארץ</DrashTooltip>, והוא נועד להשיג אושר, שפע ושלום לכלל התושבים.
           המערכת בנויה ע"פ מודל <DrashTooltip term="kingTreeSystem">עץ המלך</DrashTooltip>: 12 <DrashTooltip term="branches">ענפים</DrashTooltip> ו-12 <DrashTooltip term="halls">היכלות</DrashTooltip> של העמקה בריפוי והתפתחות הנפש, עד <DrashTooltip term="innermostPoint">לנקודה הפנימית ביותר</DrashTooltip> של אדם וטבע כמיכלול שלם.
@@ -39,6 +39,13 @@
         </p>
 
         <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אמנות</b-link> והדרכה לבריאות הנפש. ב-<DrashTooltip term="2013">2013</DrashTooltip> השתתפתי בייסוד פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב-<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב-2020 פיתחתי את מעל"ה ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center mt-2 mb-2">
+      <b-col lg="6" md="8">
+        <b-embed type="iframe" allowfullscreen
+                 src="https://youtube.com/embed/UwHVBFvanlc"></b-embed>
       </b-col>
     </b-row>
 

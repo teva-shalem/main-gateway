@@ -4,6 +4,7 @@ declare module '@/content/sohhbet-settings.json' {
         subject: string;
         discipline: string;
         content: string;
+        duration: number;
     }
 
     type SohhbetSettings = Partial<Record<string, SohhbetSetting>>

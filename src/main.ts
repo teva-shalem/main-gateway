@@ -1,5 +1,6 @@
 import './styles/main.scss'
 import './plugins/bootstrap-vue'
+import './plugins/vue-easy-lightbox'
 
 import Vue from 'vue'
 import VueGtag from 'vue-gtag'

@@ -1,14 +1,38 @@
+<template>
+  <vue-cal v-bind="vueCalProps" :style="{height: height+'px'}" @event-focus="$emit('onMoeedClick', $event)" todayButton :disable-views="['years', 'year', 'month', 'day']">
+    <template #title="{view}" v-if="filterTitleByStartDate">
+      <div>{{filterTitleByStartDate(view.startDate)}}</div>
+    </template>
+
+    <template #arrow-prev>
+      <slot name="arrow-before"/>
+    </template>
+
+    <template #arrow-next>
+      <slot name="arrow-after"/>
+    </template>
+
+    <template #today-button>
+      <slot name="today-button"/>
+    </template>
+
+    <template #event="{event}">
+      <slot name="moeed" :event="event" />
+    </template>
+  </vue-cal>
+</template>
+
 <script lang="ts">
-import Vue, {PropType, VNode} from 'vue'
+import Vue, {PropType} from 'vue'
 import VueCal, {
-  Event as VueCalEvent, Props as VueCalProps
+  Event as VueCalEvent, Props as VueCalProps, OnEventClick
   } from 'vue-cal'
 import 'vue-cal/dist/vuecal.css'
 import 'vue-cal/dist/i18n/he.js'
 
 export interface CalendarEvent {
-  start: string;
-  end: string;
+  start: string | Date;
+  end: string | Date;
   title: string;
   description: string;
 }
@@ -28,13 +52,15 @@ export default Vue.extend({
     hideShabat: {type: Boolean, default: true},
     hourFrom: {type: Number, required: false},
     hourTo: {type: Number, required: false},
+    filterTitleByStartDate: {
+      type: Function as PropType<(date: Date) => string>,
+      required: false
+    },
+    onMoeedClickEvent: {
+      type: Function as PropType<OnEventClick>,
+      required: false
+    },
     events: {type: Array as PropType<CalendarEvent[]>},
-  },
-  render(_): VNode {
-    return _('vue-cal', {
-      props: this.vueCalProps,
-      style: {height: this.height + 'px'}
-    })
   },
   computed: {
     vueCalProps(): VueCalProps {
@@ -64,6 +90,10 @@ export default Vue.extend({
       if (this.hourTo) {
         props.timeTo = this.hourTo * 60
       }
+
+      if (this.onMoeedClickEvent) {
+        props.onEventClick = this.onMoeedClickEvent
+      }
       
       return props
     }
@@ -71,5 +101,16 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+[lang="he"] {
+  .vuecal__weekdays-headings {
+    padding-right: 3em;
+    padding-left: 0;
+  }
+}
+
+.vuecal__body .split1 {background-color: rgba(226, 242, 253, 0.7);}
+.vuecal__body .split2 {background-color: rgba(232, 245, 233, 0.7);}
+.vuecal__body .split3 {background-color: rgba(255, 243, 224, 0.7);}
+.vuecal__body .split4 {background-color: rgba(255, 235, 238, 0.7);}
 </style>

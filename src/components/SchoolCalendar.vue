@@ -2,96 +2,114 @@
   <div>
     <Calendar :height="640"
     :hourFrom="9" :hourTo="22"
-    :events="events" />
+    :filterTitleByStartDate="filterTitleByStartDate"
+    @onMoeedClick="onMoeedClickEvent"
+    :events="events">
+
+      <template #arrow-before>
+        <button type="button" aria-label="שבוע הקודם" class="vuecal__arrow vuecal__arrow--prev" style="    font-size: 1.2em;">🡒</button>
+      </template>
+
+      <template #arrow-after>
+        <button type="button" aria-label="שבוע הבא" class="vuecal__arrow vuecal__arrow--next" style="    font-size: 1.2em;">🡐</button>
+      </template>
+      
+      <template #today-button>היום</template>
+
+      <template #moeed="{ event }">
+        <div class="vuecal__event-content">
+          <!-- <span>{{event.title}}</span> -->
+          <span class="d-md-none">{{event.title.split(':')[0]}}</span>
+          <span class="d-none d-md-block">{{event.title}}</span>
+        </div>
+      </template>
+    </Calendar>
+
+    <b-modal id="calendar-modal" hide-header-close hide-footer centered>
+      <template #modal-header>
+        <h5 class="modal-title">{{selectedEvent.title}}</h5>
+      </template>
+      <template #default>
+        <h4>{{/*selectedEvent*/}}</h4>
+        <p class="my-4">{{selectedEvent.contentFull}}</p>
+      </template>
+    </b-modal>
   </div>
 </template>
 
 <script lang="ts">
-import Vue, {PropType, VNode} from 'vue'
+import Vue from 'vue'
 
 import Calendar, {CalendarEvent} from '@/components/Calendar.vue'
 import sohhbetSettings from '@/content/sohhbet-settings.json'
-
-interface SchoolCalendarEvent {
-  setting: string;
-  start: string;
-  end: string;
-}
-
-const events = Array<SchoolCalendarEvent>(
-  {
-    setting: 'solidGrasp',
-    start: '2021-04-04 10:00',
-    end: '2021-04-04 12:00',
-  },
-  {
-    setting: 'pulsingMeetingArt',
-    start: '2021-04-05 19:00',
-    end: '2021-04-05 21:00',
-  },
-  {
-    setting: 'springOfWisdom',
-    start: '2021-04-06 10:00',
-    end: '2021-04-06 12:00', 
-  },
-  {
-    setting: 'treeOfKing',
-    start: '2021-04-06 19:00',
-    end: '2021-04-06 21:00',
-  },
-  {
-    setting: 'psychophysicalFocusing',
-    start: '2021-04-07 15:00',
-    end: '2021-04-07 17:00',
-  },
-  {
-    setting: 'solidMovement',
-    start: '2021-04-07 19:00',
-    end: '2021-04-07 21:00',
-  },
-  {
-    setting: 'solidPulsingHealing',
-    start: '2021-04-08 10:00',
-    end: '2021-04-08 12:00',
-  },
-  {
-    setting: 'jamSession',
-    start: '2021-04-08 19:00',
-    end: '2021-04-08 21:00',
-  },
-  {
-    setting: 'storyOfUnit',
-    start: '2021-04-09 12:00',
-    end: '2021-04-09 14:00',
-  },
-  {
-    setting: 'shabatWelcoming',
-    start: '2021-04-10 18:00',
-    end: '2021-04-10 20:00',
-  },
-)
+import luzPeima from '@/content/luz-peima.json'
+import oganeyZman from '@/content/oganey-zman.json'
 
 export default Vue.extend({
   name    : 'SchoolCalendar',
   components: { Calendar },
   computed: {
     events(): CalendarEvent[] {
-      return events.map(event => {
-        const {start, end, setting} = event
+      return luzPeima.moadim.map(moeed => {
+        const {zman, setting} = moeed
         const settingData = sohhbetSettings[setting] 
         
         if (!settingData)
           throw Error('Wrong school setting')
 
-        const {subject, discipline, content} = settingData
+        const {subject, discipline, content, duration} = settingData
         const title = subject + `${discipline ? ': '+discipline : ''}`
+        
+        const zmanToTime = (zman: [string, number, string]) => {
+          const [shavuaa, yom, shaaa] = zman
 
+          const sunday = new Date(`${oganeyZman.shavuot[shavuaa]}T${shaaa}`)
+          const day = sunday.addDays(yom - 1)
+
+          return new Date(day)
+        }
+
+        const start = zmanToTime(zman)
+        const decimalTimeToMilliseconds = (time: number): number => 
+          time * 60 * 60 * 1000
+
+        const end = new Date(start.getTime() + decimalTimeToMilliseconds(duration))
+        
         return {start, end, title, description: content}
       })
     }
   },
+  methods: {
+    filterTitleByStartDate(date: Date): string {
+      const timeToShavuaa = (date: Date): string => {
+        const weekFound = Object.entries(oganeyZman.shavuot)
+          .find(([, week]) => week === date.format(''))
+
+        return weekFound ? weekFound[0] : 'null'
+      }
+      return timeToShavuaa(date)
+    },
+
+    onMoeedClickEvent(event) {
+      this.selectedEvent = event
+      this.$bvModal.show('calendar-modal')
+    }
+  },
+  data: () => ({
+    selectedEvent: {},
+    showDialog: false,
+  })
 })
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+
+.vuecal__event {background-color: rgba(253, 156, 66, 0.9);border: 1px solid rgb(233, 136, 46);color: #fff;}
+
+.vuecal__event-content {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
 </style>

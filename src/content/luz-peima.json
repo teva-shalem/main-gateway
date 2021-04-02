@@ -1,0 +1,44 @@
+{
+    "moadim": [
+        {
+            "setting": "solidGrasp",
+            "zman": ["סרטן אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["סרטן אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["סרטן אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "treeOfKing",
+            "zman": ["סרטן אביב חוויה", 3, "19:00"]
+        },
+        {
+            "setting": "psychophysicalFocusing",
+            "zman": ["סרטן אביב חוויה", 4, "15:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["סרטן אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "solidPulsingHealing",
+            "zman": ["סרטן אביב חוויה", 5, "10:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["סרטן אביב חוויה", 5, "19:00"]
+        },
+        {
+            "setting": "storyOfUnit",
+            "zman": ["סרטן אביב חוויה", 6, "12:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["סרטן אביב חוויה", 7, "18:00"]
+        }
+    ]
+}
