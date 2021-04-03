@@ -5,47 +5,47 @@
       <h1>לימוד ה<DrashTooltip term="heart" position="bottom" show-initially>נפש</DrashTooltip> שלך</h1></b-col>
       <b-col lg class="i-title">דרך הפעימה</b-col>
     </b-row>
+
     <b-row class="justify-content-center">
-      
       <b-col lg="6" md="8">
         <b-row class="justify-content-between">
           <b-col md="8" cols="8" align-self="center" class="m-md-auto">
-        <p>שלום וברוכים הבאים,<br/>
-        שמי דוד ישראל כהן. נולדתי וגדלתי בירושלים. שירתתי בצבא כ<DrashTooltip term="captainOfShip">מפקד ספינה</DrashTooltip>. משנת <DrashTooltip term="2002">2002</DrashTooltip> אני מתמודד עם סכיזופרניה ופוסט טראומה, ונמצא במסע חקר ולימוד נפש האדם.</p>
-      </b-col>
+            <p>שלום וברוכים הבאים לאתר טבע שלם הנקרא גם <DrashTooltip term="meshutelahh">משוטל״ח</DrashTooltip> - מיזם לריפוי והתפתחות הנפש. </p>
+          </b-col>
 
-      <b-col md="4" cols="4" align-self="center" class="mx-auto">
-        <b-img src="@/assets/merkavah-logo.jpg" fluid />
-      </b-col>
+          <b-col md="4" cols="4" align-self="center" class="mx-auto">
+            <b-img src="@/assets/merkavah-logo.jpg" fluid />
+          </b-col>
         </b-row>
       </b-col>
-
-      
     </b-row>
 
     <b-row class="justify-content-center">
       <b-col lg="6" md="8">
         <p class="mt-2">
-          <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא מיזם חדש תחת השמש הבנוי על יסודות קדמונים ומהווה עמוד תווך בבניין <DrashTooltip term="thirdHome">בית שלישי</DrashTooltip> של ממלכת ישראל בימינו.
-          המיזם נקרא גם <DrashTooltip term="wholeSystem">המשי"ח</DrashTooltip> - מערכת שלמה ישראל חיה.
-          מטרתו היא קיימות של המין האנושי על פני אדמות.
-          קהל היעד הוא כל <DrashTooltip term="earthDwellers">תושבי כדור הארץ</DrashTooltip>, והוא נועד להשיג אושר, שפע ושלום לכלל התושבים.
-          המערכת בנויה ע"פ מודל <DrashTooltip term="kingTreeSystem">עץ המלך</DrashTooltip>: 12 <DrashTooltip term="branches">ענפים</DrashTooltip> ו-12 <DrashTooltip term="halls">היכלות</DrashTooltip> של העמקה בריפוי והתפתחות הנפש, עד <DrashTooltip term="innermostPoint">לנקודה הפנימית ביותר</DrashTooltip> של אדם וטבע כמיכלול שלם.
-          <DrashTooltip term="uniqueness">הייחוד</DrashTooltip>.
+          <DrashTooltip term="wholeNature">טבע שלם</DrashTooltip> הוא מיזם המהווה עמוד תווך בבניין חברה ישראלית מתוקנת בימינו - או בית שלישי. המיזם שואף לבנות מערכת הדרכה נפשית־רוחנית לאדם המודרני המתמודד עם קשיי נפשו ועימותיו עם העולם. המערכת עוסקת בחלקה הפנימי בתפישה ע״י עיון ב<b-link href="https://books.teva-shalem.com/">ספרות הטבעדינמיקה</b-link>. מיסודות התפישה היא יוצרת <b-link to="/art">אמנות</b-link> לסוגיה הבונה נדבך בלימוד וריפוי הנפש. משם המערכת מלמדת תוכן ע״י <b-link to="/school">בית ספר פעימה</b-link> ב<b-link to="/luz">תוכנית שיעורים מסודרת</b-link> ושירותים שונים של בית הספר - לימודי דרך הפעימה. חלק מהשירותים ניתנים ב<b-link to="/home">טרפון 42</b-link>, משכן בית הספר המשמש בית שהוא מודל יזמי־חברתי מרפא בכוונה להשתכפל ולהתרחב. 
         </p>
-
-        <p>לב הפרוייקט הוא <DrashTooltip term="heartLearningSystem">מעל"ה</DrashTooltip> - <strong>מערכת לימוד הנפש</strong>.
-        המערכת מפתחת גוף ידע ייחודי ומשולב אשר נבנה מתוך מסע התמודדות של המחברים. <b-link href="https://books.teva-shalem.com/">גוף הידע</b-link> מהווה גשר בין תחומי החיים והטבע השונים, בין שפות שונות, ומאפשר תהליך נובע של היבנות תורת חיים משותפת לאנושות.
+        <p>
+          היבנות הדדית זו קורית ב<b-link to="healing-space">מרחבי הבראה</b-link> ברחבי הארץ, שהם אזורים נרחבים עם מספר יישובים והקשרים ביניהם, בהם מעמיקה ומתרחבת ההיבנות והערבות ההדדית, בין השאר ע״י המודל הטכנולוגי החכם. 
         </p>
-
-        <p>בשנת 2002 הקמתי את <b-link to="/school">בית ספר פעימה</b-link> ללימוד הנפש ככלי להתמודדות אישית ובניית שיטת עבודה כללית. משנת 2009 אני עוסק ב<b-link to="/art">אמנות</b-link> והדרכה לבריאות הנפש. ב-<DrashTooltip term="2013">2013</DrashTooltip> השתתפתי בייסוד פרוייקט mind&fitness - מרכז גוף נפש למתמודדים נפשית. ב-<DrashTooltip term="2018">2018</DrashTooltip> פיתחתי את דרך הפעימה לריפוי והתפתחות נפש האדם. ב-2020 פיתחתי את מעל"ה ואת <DrashTooltip term="2020">נוסחאות הפעימה</DrashTooltip>.</p>
+        <p>
+          המערכת כולה המדריכה ומלווה את האדם נקראת <b-link to="/maala">מעל״ה</b-link> (מערכת לימוד הנפש) והיא נבנית מהשטח בשיתוף פעולה נובע ע״י בני ישראל.
+        </p>
       </b-col>
     </b-row>
 
     <b-row class="justify-content-center mt-2 mb-2">
       <b-col lg="6" md="8">
         <b-embed type="iframe" allowfullscreen
-                 src="https://youtube.com/embed/UwHVBFvanlc"></b-embed>
+                src="https://youtube.com/embed/UwHVBFvanlc"></b-embed>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="6" md="8">
+        <p>
+           אתם מוזמנים להיכנס ולהתעניין, להשתמש באתר זה כחבר לשיחה או ככלי עבודה ולימוד, ככלי לריפוי והתפתחות הנפש, או כהשראה ליזמות אישית.
+        </p>
       </b-col>
     </b-row>
 

@@ -1,6 +1,6 @@
 {
   "name": "meshutelah",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve --port 8083",
@@ -11,7 +11,7 @@
     "deploy:world": "env FOLDER=main-gateway ./scripts/deploy.sh"
   },
   "gitHooks": {
-    "pre-commit": "npm run lint"
+    "pre-commit": "yarn lint && yarn build"
   },
   "dependencies": {
     "bootstrap-vue": "^2.21.2",

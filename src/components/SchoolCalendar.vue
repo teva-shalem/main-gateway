@@ -90,7 +90,7 @@ export default Vue.extend({
       return timeToShavuaa(date)
     },
 
-    onMoeedClickEvent(event) {
+    onMoeedClickEvent(event: any) {
       this.selectedEvent = event
       this.$bvModal.show('calendar-modal')
     }
