@@ -2,7 +2,7 @@
 <b-navbar sticky toggleable="md" type="light">
   <b-navbar-brand to="/"><b-img src="@/assets/logo.png" class="navbar-brand-logo" />טבע שלם</b-navbar-brand>
 
-  <b-navbar-toggle target="nav-collapse" @click="$root.$emit('bv::hide::popover')">
+  <b-navbar-toggle target="nav-collapse" @click="onMenuOpen()">
       <template>
         תפריט
       </template>
@@ -12,7 +12,7 @@
     <b-navbar-nav class="ml-auto align-items-center">
       <b-nav-item href="https://books.teva-shalem.com/">ספרים</b-nav-item>
       <b-nav-item to="/art">אמנות</b-nav-item>
-      <b-nav-item to="/school">בית ספר פעימה</b-nav-item>
+      <b-nav-item to="/school">בי״ס פעימה</b-nav-item>
       <b-nav-item to="/luz">לו״ז</b-nav-item>
       <b-nav-item to="/home">הבית</b-nav-item>
       <b-nav-item to="/healing-space">מרחב הבראה</b-nav-item>
@@ -29,9 +29,18 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue'
+
+export default Vue.extend({
   name: 'MainNavigation',
-}
+  methods: {
+    onMenuOpen(): void {
+      debugger
+      document.documentElement.scrollTo({top:0})
+      this.$root.$emit('bv::hide::popover')
+    }
+  }
+})
 </script>
 
 <style lang="scss" scoped>
@@ -55,7 +64,9 @@ export default {
 
 .navbar-brand {
   display: flex;
+  text-decoration-thickness: 1px;
 }
+
 .navbar-brand-logo {
   height: 30px;
 }

@@ -70,7 +70,7 @@
         
         <hr />
 
-        <h2>הגעה למרכז</h2>
+        <h2>הגעה למרכז: טרפון 42, שכונת התקווה</h2>
 
         <b-img fluid class="w-100" src="/img/building-map.jpg" />
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700&display=swap');
+
 @import "variables";
 @import "3rd-parties";
 
@@ -11,6 +13,7 @@ body {
   background-size: contain;
   background-attachment: fixed;
   background-position: center;
+  font-weight: 300;
 }
 
 .nav {
@@ -24,6 +27,10 @@ a {
 
 p {
   @include font-size(1.25rem);
+}
+
+ul {
+  @include font-size(1.18rem);
 }
 
 .nav-tabs {

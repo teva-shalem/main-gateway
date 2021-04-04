@@ -1,6 +1,17 @@
 {
     "moadim": [
         {
+            "setting": "insearchCircle",
+            "zman": ["סרטן אביב חוויה", 2 ,"13:00"]
+        },{
+            "setting": "insearchCircle",
+            "zman": ["סרטן אביב חוויה", 3 ,"13:00"]
+        },{
+            "setting": "insearchCircle",
+            "zman": ["סרטן אביב חוויה", 4 ,"13:00"]
+        },
+
+        {
             "setting": "solidGrasp",
             "zman": ["סרטן אביב חוויה", 1, "10:00"]
         },
@@ -38,7 +49,7 @@
         },
         {
             "setting": "shabatWelcoming",
-            "zman": ["סרטן אביב חוויה", 7, "18:00"]
+            "zman": ["סרטן אביב חוויה", 6, "18:00"]
         }
     ]
 }

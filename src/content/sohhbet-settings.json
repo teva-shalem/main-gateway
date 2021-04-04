@@ -1,56 +1,79 @@
 {
+  "insearchCircle": {
+    "subject": "חוג העיון",
+    "content": "הליבה של תכנית הלימודים בה מתקיים שיח פתוח על שילוב נושאי הלימוד השונים. ללא תשלום",
+    "duration": 5,
+    "isBackground": true
+  },
   "solidGrasp": {
+    "class": "foundations",
     "subject": "תפישה יסודית",
     "discipline": "טבעדינמיקה",
     "content": "לימוד מסע החיים של האדם, מבנה הנפש, אבני הבניין של המציאות, והקשר ביניהם",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c"]
   },
   "pulsingMeetingArt": {
+    "class": "movement",
     "subject": "אומנות המפגש הפועם",
     "discipline": "Push Hands",
     "content": "תירגול אומנות הטאי־צ׳י בזוגות. דגש על הקשבה, ניהול כח, טכניקות הגנה, והשלכות נפשיות",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c"]
   },
   "springOfWisdom": {
+    "class": "blima",
     "subject": "מעיין החכמה",
     "discipline": "קרוא וכתוב חנוך",
     "content": "לימוד האותיות כאבני בניין לבריאת מציאות. לכל אות תכונות, איכות, אישיות, וכוחות. לימוד שיטות חדשות לצירוף אותיות לקריאה, כתיבה, והרכבת שפה",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c", "ore.l"]
   },
   "treeOfKing": {
+    "class": "blima",
     "subject": "לוח המשחק עץ המלך",
     "discipline": "בלימת האותיות",
     "content": "לימוד משחק החיים על כל רבדיו בעזרת מודל מטאפיזי המשמש כלוח המשחק המוגשם במציאות",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c", "ore.l"]
   },
   "psychophysicalFocusing": {
+    "class": "foundations",
     "subject": "התמקדות פסיכופיזית",
     "discipline": "מפת גוף הנפש",
     "content": "לימוד מפת הקשרים בין הגוף לנפש לרוח של האדם. מיפוי אישי של מערכת הקשרים על מודל המרכבה ומענה לסימפטומים פגועים",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c"]
   },
   "solidMovement": {
+    "class": "movement",
     "subject": "יסודות התנועה",
     "discipline": "חמש נוסחאות הפעימה",
     "content": "לימוד תרגילי צ׳י־קונג וטאי־צ׳י יסודיים. לכל תרגיל נוסחא מתמטית, ידע עיוני, והשלכות נפשיות",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c"]
   },
   "solidPulsingHealing": {
+    "class": "foundations",
     "subject": "יסודות הריפוי הפועם",
     "discipline": "אסטרטגיית דוד",
     "content": "למידת מנגנון הרחבת הדעת והשבת הנפש כמנגנון ההתפתחות והלמידה. שימוש בכוונת דוד על מרכז הלב. למידת שיחרור תודעתי לכיוון הלב. עיבוד של טראומות מודחקות בבטן הלב. תנועה פסיכופיזית לכיוון מרכז הלב ופתיחתו, המהוויים את שיחרור ירושלים",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c"]
   },
   "jamSession": {
+    "class": "creative",
     "subject": "ג׳אם סשן פועם",
     "content": "מוסיקה",
     "duration": 2
   },
   "storyOfUnit": {
+    "class": "creative",
     "subject": "סיפור היחיד",
     "discipline": "כתיבת אוטוביוגרפיה פועמת",
     "content": "כלי ריפוי אישי עוצמתי של בירור סוגיות בביוגרפיה האישית והעלאתם למודעות. סדר והרמוניה באותיות המרכיבות את מבנה הנפש",
-    "duration": 2
+    "duration": 2,
+    "mentors": ["david.i.c"]
   },
   "shabatWelcoming": {
     "subject": "קבלת שבת",

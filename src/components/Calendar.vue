@@ -16,6 +16,10 @@
       <slot name="today-button"/>
     </template>
 
+    <template #weekday-heading="{heading}">
+      <slot name="weekday-heading" :heading="heading" />
+    </template>
+
     <template #event="{event}">
       <slot name="moeed" :event="event" />
     </template>
@@ -34,12 +38,22 @@ export interface CalendarEvent {
   start: string | Date;
   end: string | Date;
   title: string;
+  titleFull: string;
+  subtitle?: string;
   description: string;
+  isBackground?: boolean;
+  className?: string;
 }
 
-function transformCalendarEvent(eventData: CalendarEvent): VueCalEvent {
-  const {start, end, title, description} = eventData
-  return {start, end, title, contentFull: description}
+function transformCalendarEvent(eventData: CalendarEvent): VueCalEvent & {subtitle?: string, titleFull: string} {
+  const {start, end, title, subtitle, titleFull, description, className, isBackground} = eventData
+
+  return {
+    start, end, title, subtitle, titleFull,
+    contentFull: description, 
+    class: className, 
+    background: isBackground
+  }
 }
 
 export default Vue.extend({
@@ -109,8 +123,5 @@ export default Vue.extend({
   }
 }
 
-.vuecal__body .split1 {background-color: rgba(226, 242, 253, 0.7);}
-.vuecal__body .split2 {background-color: rgba(232, 245, 233, 0.7);}
-.vuecal__body .split3 {background-color: rgba(255, 243, 224, 0.7);}
-.vuecal__body .split4 {background-color: rgba(255, 235, 238, 0.7);}
+.vuecal__event {cursor: pointer;}
 </style>

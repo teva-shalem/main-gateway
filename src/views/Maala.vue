@@ -7,7 +7,7 @@
         <b-img fluid class="w-100 mb-2" src="/img/monoshem.jpg" />
         
         <h2>המשי״ח - מערכת שלמה ישראל חיה</h2>
-        <p>מעל״ה מורכבת מח״י מערכות. 12 ענפים היוצאים מהמרכז למרחב בצורה אופקית על פני 12 היכלות שהם היקפים סביב למרכז לכיוון הלב, ועוד 6 חברות בנייה הבונות את הרקיעים. כך נבנה <b-link href="https://books.teva-shalem.com/slideshow">מודל קוסמולוגי שלם</b-link> סביב האדם.</p>
+        <p>מעל״ה מורכבת מ<DrashTooltip term="wholeSystem">ח״י מערכות</DrashTooltip>. 12 <DrashTooltip term="branches">ענפים</DrashTooltip> היוצאים מהמרכז למרחב בצורה אופקית על פני 12 <DrashTooltip term="halls">היכלות</DrashTooltip>  שהם היקפים סביב למרכז לכיוון הלב, ועוד 6 חברות בנייה הבונות את הרקיעים. כך נבנה <b-link href="https://books.teva-shalem.com/slideshow">מודל קוסמולוגי שלם</b-link> סביב האדם.</p>
         <p>המערכת מהווה שילוב של מערכות החינוך, רפואת הנפש, כלכלה, חברה, תרבות ותורה. היא נבנית באופן משותף ונובע בכל ישראל.</p>
 
         <hr />
