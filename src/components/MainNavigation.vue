@@ -35,7 +35,6 @@ export default Vue.extend({
   name: 'MainNavigation',
   methods: {
     onMenuOpen(): void {
-      debugger
       document.documentElement.scrollTo({top:0})
       this.$root.$emit('bv::hide::popover')
     }

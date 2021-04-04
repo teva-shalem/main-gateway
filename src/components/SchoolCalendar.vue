@@ -1,17 +1,17 @@
 <template>
   <div>
-    <Calendar :height="640"
+    <Calendar ref="calendar" :height="640"
     :hourFrom="9" :hourTo="22"
     :filterTitleByStartDate="filterTitleByStartDate"
-    @onMoeedClick="onMoeedClickEvent"
+    :onMoeedClickEvent="onMoeedClickEvent"
     :events="events">
 
       <template #arrow-before>
-        <button type="button" aria-label="שבוע הקודם" class="vuecal__arrow vuecal__arrow--prev" style="font-size: 1.2em;">🡒</button>
+        <button type="button" aria-label="שבוע הקודם" class="vuecal__arrow vuecal__arrow--prev" style="font-size: 1.2em;">&#x21b7;</button>
       </template>
 
       <template #arrow-after>
-        <button type="button" aria-label="שבוע הבא" class="vuecal__arrow vuecal__arrow--next" style="font-size: 1.2em;">🡐</button>
+        <button type="button" aria-label="שבוע הבא" class="vuecal__arrow vuecal__arrow--next" style="font-size: 1.2em;">&#x21b6;</button>
       </template>
       
       <template #today-button><button>היום</button></template>
@@ -120,15 +120,17 @@ export default Vue.extend({
     },
 
     onMoeedClickEvent(event: any) {
-      this.$root.$emit('bv::hide::modal', 'calendar-modal')
-
       this.selectedEvent = event
       this.$bvModal.show('calendar-modal')
+      
+      this.$root.$once('bv::modal::hide', () => {
+        this.$bvModal.hide('calendar-modal')
+        // this.selectedEvent = {}
+      })
     }
   },
   data: () => ({
     selectedEvent: {},
-    showDialog: false,
   })
 })
 </script>

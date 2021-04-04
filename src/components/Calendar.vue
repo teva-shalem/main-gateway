@@ -1,5 +1,7 @@
 <template>
-  <vue-cal v-bind="vueCalProps" :style="{height: height+'px'}" @event-focus="$emit('onMoeedClick', $event)" todayButton :disable-views="['years', 'year', 'month', 'day']">
+  <vue-cal v-bind="vueCalProps" :style="{height: height+'px'}"
+    todayButton :disable-views="['years', 'year', 'month', 'day']"
+  >
     <template #title="{view}" v-if="filterTitleByStartDate">
       <div>{{filterTitleByStartDate(view.startDate)}}</div>
     </template>
