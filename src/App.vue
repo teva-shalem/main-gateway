@@ -4,7 +4,7 @@
 
     <router-view/>
 
-    <footer>האתר נבנה ע"י אור לנדאו</footer>
+    <footer>האתר נובע מחוג העיון ע"י אור לנדאו ודוד ישראל כהן</footer>
   </div>
 </template>
 
