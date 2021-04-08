@@ -3,14 +3,15 @@
         {
             "setting": "insearchCircle",
             "zman": ["סרטן אביב חוויה", 2 ,"13:00"]
-        },{
+        },
+        {
             "setting": "insearchCircle",
             "zman": ["סרטן אביב חוויה", 3 ,"13:00"]
-        },{
+        },
+        {
             "setting": "insearchCircle",
             "zman": ["סרטן אביב חוויה", 4 ,"13:00"]
         },
-
         {
             "setting": "solidGrasp",
             "zman": ["סרטן אביב חוויה", 1, "10:00"]
@@ -50,6 +51,112 @@
         {
             "setting": "shabatWelcoming",
             "zman": ["סרטן אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["תאום אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["תאום אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאום אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "treeOfKing",
+            "zman": ["תאום אביב חוויה", 3, "19:00"]
+        },
+        {
+            "setting": "psychophysicalFocusing",
+            "zman": ["תאום אביב חוויה", 4, "15:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["תאום אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "solidPulsingHealing",
+            "zman": ["תאום אביב חוויה", 5, "10:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["תאום אביב חוויה", 5, "19:00"]
+        },
+        {
+            "setting": "storyOfUnit",
+            "zman": ["תאום אביב חוויה", 6, "12:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["תאום אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["תאומה אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["תאומה אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאומה אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "treeOfKing",
+            "zman": ["תאומה אביב חוויה", 3, "19:00"]
+        },
+        {
+            "setting": "psychophysicalFocusing",
+            "zman": ["תאומה אביב חוויה", 4, "15:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["תאומה אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "solidPulsingHealing",
+            "zman": ["תאומה אביב חוויה", 5, "10:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["תאומה אביב חוויה", 5, "19:00"]
+        },
+        {
+            "setting": "storyOfUnit",
+            "zman": ["תאומה אביב חוויה", 6, "12:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["תאומה אביב חוויה", 6, "18:00"]
         }
     ]
 }
