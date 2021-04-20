@@ -157,6 +157,64 @@
         {
             "setting": "shabatWelcoming",
             "zman": ["תאומה אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["עקרב אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["עקרב אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["עקרב אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["עקרב אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["עקרב אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["עקרב אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["עקרב אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["דלי אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דלי אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דלי אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["דלי אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["דלי אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["דלי אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["דלי אביב חוויה", 5, "19:00"]
         }
     ]
 }
