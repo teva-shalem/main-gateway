@@ -215,6 +215,73 @@
         {
             "setting": "jamSession",
             "zman": ["דלי אביב חוויה", 5, "19:00"]
+        },
+
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["טלה אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["טלה אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["טלה אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["טלה אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["טלה אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["דגים אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["דגים אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["דגים אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["דגים אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["דגים אביב חוויה", 5, "19:00"]
         }
     ]
 }
