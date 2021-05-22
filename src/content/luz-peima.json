@@ -282,6 +282,73 @@
         {
             "setting": "jamSession",
             "zman": ["דגים אביב חוויה", 5, "19:00"]
+        },
+
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["מאזנים אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["מאזנים אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["מאזנים אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["מאזנים אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["מאזנים אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["אריה אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["אריה אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["אריה אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["אריה אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["אריה אביב חוויה", 5, "19:00"]
         }
     ]
 }
