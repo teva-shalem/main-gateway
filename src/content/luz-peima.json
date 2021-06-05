@@ -349,6 +349,72 @@
         {
             "setting": "jamSession",
             "zman": ["אריה אביב חוויה", 5, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["קשת אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["קשת אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["קשת אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["קשת אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["קשת אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["קשת אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["קשת אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "shabatWelcoming",
+            "zman": ["קשת אביב חוויה", 6, "18:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["בתולה אביב חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["בתולה אביב חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["בתולה אביב חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "solidGrasp",
+            "zman": ["בתולה אביב חוויה", 1, "10:00"]
+        },
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["בתולה אביב חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["בתולה אביב חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["בתולה אביב חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "jamSession",
+            "zman": ["בתולה אביב חוויה", 5, "19:00"]
         }
     ]
 }
