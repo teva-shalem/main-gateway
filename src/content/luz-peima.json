@@ -415,6 +415,52 @@
         {
             "setting": "jamSession",
             "zman": ["בתולה אביב חוויה", 5, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["סרטן קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["סרטן קיץ חוויה", 4, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאום קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["תאום קיץ חוויה", 4, "19:00"]
+        },
+        {
+            "setting": "storyOfUnit",
+            "zman": ["תאום קיץ חוויה", 6, "12:00"]
         }
     ]
 }

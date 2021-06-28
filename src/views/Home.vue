@@ -1,11 +1,14 @@
 <template>
-  <b-container class="home mt-3">
-    <b-row class="text-center">
+<div>
+<b-container fluid class="home-top">
+  <b-row class="text-center pt-3">
       <b-col lg class="mb-6"><h2>מהתמודדות למנהיגות<br/>ממשבר לצמיחה</h2>
       <h1>לימוד ה<DrashTooltip term="heart" position="bottom" show-initially>נפש</DrashTooltip> שלך</h1></b-col>
       <b-col lg class="i-title">דרך הפעימה</b-col>
     </b-row>
+</b-container>
 
+<b-container class="home">
     <b-row class="justify-content-center">
       <b-col lg="6" md="8">
         <b-row class="justify-content-between">
@@ -63,6 +66,7 @@
       </b-col>
     </b-row>
   </b-container>
+</div>
 </template>
 
 <script lang="ts">
@@ -81,6 +85,17 @@ export default {
 </script>
 
 <style lang="scss">
+.home-top {
+  background-image: linear-gradient(to bottom,
+    transparent 50%,
+    rgba(white, 0.2) 60%,
+    white 100%
+  ), url('../assets/bg-nof.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 .strong-invitation {
   text-align: center;
   font-weight: bold;
