@@ -461,6 +461,27 @@
         {
             "setting": "storyOfUnit",
             "zman": ["תאום קיץ חוויה", 6, "12:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["עקרב קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["עקרב קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["עקרב קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["עקרב קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["עקרב קיץ חוויה", 4, "19:00"]
         }
     ]
 }
