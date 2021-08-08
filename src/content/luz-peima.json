@@ -482,6 +482,90 @@
         {
             "setting": "solidMovement",
             "zman": ["עקרב קיץ חוויה", 4, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["טלה קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["טלה קיץ חוויה", 4, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["דגים קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["דגים קיץ חוויה", 4, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["מאזנים קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["מאזנים קיץ חוויה", 4, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה קיץ חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה קיץ חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה קיץ חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["אריה קיץ חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["אריה קיץ חוויה", 4, "19:00"]
         }
     ]
 }
