@@ -566,6 +566,90 @@
         {
             "setting": "solidMovement",
             "zman": ["אריה קיץ חוויה", 4, "19:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["שור סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["שור סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["שור סתיו חוויה", 4 ,"13:00"]
+        },       
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["שור סתיו חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["שור סתיו חוויה", 3, "10:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן סתיו חוויה", 4 ,"13:00"]
+        },       
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["סרטן סתיו חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["סרטן סתיו חוויה", 3, "10:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום סתיו חוויה", 4 ,"13:00"]
+        },       
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["תאום סתיו חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאום סתיו חוויה", 3, "10:00"]
+        },
+
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה סתיו חוויה", 4 ,"13:00"]
+        },       
+        {
+            "setting": "pulsingMeetingArt",
+            "zman": ["תאומה סתיו חוויה", 2, "19:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאומה סתיו חוויה", 3, "10:00"]
         }
     ]
 }
