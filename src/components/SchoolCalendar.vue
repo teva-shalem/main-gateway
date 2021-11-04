@@ -182,6 +182,10 @@ export default Vue.extend({
     background-color: fade-out($cyan, 0.3);
     border-color: darken($cyan, 26%);
   }
+  &.special {
+    background: repeating-linear-gradient(45deg, transparent, transparent 10px, #d1d1d1 20px);
+    border-color: darken(#d1d1d1, 26%);
+  }
 }
 
 .vuecal__event-content {

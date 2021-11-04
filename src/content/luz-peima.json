@@ -650,6 +650,128 @@
         {
             "setting": "springOfWisdom",
             "zman": ["תאומה סתיו חוויה", 3, "10:00"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["טלה סתיו חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["טלה סתיו חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["טלה סתיו חוויה", 4, "18:30"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["דגים סתיו חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["דגים סתיו חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["דגים סתיו חוויה", 4, "18:30"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["מאזנים סתיו חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["מאזנים סתיו חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["מאזנים סתיו חוויה", 4, "18:30"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["אריה סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "openDay",
+            "zman": ["אריה סתיו חוויה", 4 ,"10:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["אריה סתיו חוויה", 3, "10:00"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["קשת סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["קשת סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["קשת סתיו חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["קשת סתיו חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["קשת סתיו חוויה", 4, "18:30"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["בתולה סתיו חוויה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["בתולה סתיו חוויה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["בתולה סתיו חוויה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["בתולה סתיו חוויה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["בתולה סתיו חוויה", 4, "18:30"]
         }
     ]
 }
