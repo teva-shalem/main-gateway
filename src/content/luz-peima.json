@@ -772,6 +772,111 @@
         {
             "setting": "solidMovement",
             "zman": ["בתולה סתיו חוויה", 4, "18:30"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["גדי אביב יצירה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["גדי אביב יצירה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["גדי אביב יצירה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["גדי אביב יצירה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["גדי אביב יצירה", 4, "19:00"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["שור אביב יצירה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["שור אביב יצירה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["שור אביב יצירה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["שור אביב יצירה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["שור אביב יצירה", 4, "19:00"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן אביב יצירה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן אביב יצירה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["סרטן אביב יצירה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["סרטן אביב יצירה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["סרטן אביב יצירה", 4, "19:00"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום אביב יצירה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום אביב יצירה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאום אביב יצירה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאום אביב יצירה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["תאום אביב יצירה", 4, "19:00"]
+        },
+        
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה אביב יצירה", 2 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה אביב יצירה", 3 ,"13:00"]
+        },
+        {
+            "setting": "insearchCircle",
+            "zman": ["תאומה אביב יצירה", 4 ,"13:00"]
+        },
+        {
+            "setting": "springOfWisdom",
+            "zman": ["תאומה אביב יצירה", 3, "10:00"]
+        },
+        {
+            "setting": "solidMovement",
+            "zman": ["תאומה אביב יצירה", 4, "19:00"]
         }
     ]
 }
